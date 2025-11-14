@@ -30,7 +30,7 @@
 				"uniques": [""],
 			},
 				{
-				"name": "Early Scavanging",
+				"name": "Early Scavenging",
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Terragenesis"],
@@ -62,14 +62,14 @@
 				"name": "Bartering",
 				"row": 4,
 				"quote": "",
-				"prerequisites": ["Storage", "Early Scavaging"],
+				"prerequisites": ["Storage", "Early Scavenging"],
 				"uniques": [""],
 			},
 			{
 				"name": "Basic paths",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Early Scavaging"],
+				"prerequisites": ["Early Scavenging"],
 				"uniques": [""],
 			},
 				{
