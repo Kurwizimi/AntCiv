@@ -191,7 +191,7 @@
 				"name": "Diplomats",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Rafts", "Bridges"],
+				"prerequisites": ["Wooden Tools", "Bridges"],
 				"uniques": [""],
 			},
 			{
