@@ -1,21 +1,5 @@
 [
-    */{
-        "name": "Era",
-        "researchAgreementCost": 10,
-        "startingSettlerCount": 1,
-        "startingWorkerCount": 1,
-        "startingMilitaryUnitCount": 1,
-	    "startingSettlerUnit": "Young queen",
-	    "startingWorkerUnit": "Worker",
-        "startingMilitaryUnit": "Soldier",
-        "settlerPopulation": 1,
-        "baseUnitBuyCost": 1,
-        "embarkDefense": 2,
-        "startPercent": 0,
-        //"citySound": "cityAncient",
-        "iconRGB": [255, 0, 0]
-    },
-    /*
+    
     {
         "name": "The Formic Menace",
         "researchAgreementCost": 10,
