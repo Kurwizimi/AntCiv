@@ -1,43 +1,185 @@
 [
-	{
+		{
 		"columnNumber": 1,
-		"era": "Era",
+		"era": "The Formic Menace",
 		"techCost": 10,
 		"buildingCost": 100,
 		"wonderCost": 100,
 		"techs": [
-			{
-				"name": "Ants tech",
-				"row": 0,
-				"quote": "techtech ant tech",
+				{
+				"name": "Terragenesis",
+				"row": 6,
+				"quote": "",
 				"uniques": ["Starting tech"],
-				"civilopediaText": [
-					{
-						"text": "tech tech ant tech"
-					}
-				]
-			}
-		]
+				"civilopediaText": [{"text": "tech tech ant tech"}]
+			}]
 	},
 
-	{
+		{
 		"columnNumber": 2,
-		"era": "Era",
+		"era": "The Formic Menace",
 		"techCost": 10,
 		"buildingCost": 100,
 		"wonderCost": 100,
 		"techs": [
-			{
-				"name": "Ants tech",
-				"row": 0,
-				"quote": "techtech ant tech",
-				"uniques": ["Starting tech"],
-				"civilopediaText": [
-					{
-						"text": "tech tech ant tech"
-					}
-				]
-			}
-		]
+				{
+				"name": "Storage",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Terragenesis"],
+				"uniques": [""],
+			},
+				{
+				"name": "Early Scavanging",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Terragenesis"],
+				"uniques": [""],
+			},
+				{
+				"name": "Nest Defence",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["Terragenesis"],
+				"uniques": [""],
+			},
+				{
+				"name": "Burrowing",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["Terragenesis"],
+				"uniques": [""],
+			}]
 	},
+	{
+		"columnNumber": 3,
+		"era": "Attack of the Colonies",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Bartering",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Storage", "Early Scavaging"],
+				"uniques": [""],
+			},
+				{
+				"name": "Species Protection",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["Nest Defence"],
+				"uniques": [""],
+			},
+				{
+				"name": "Tunnels",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Burrowing", "Nest Defence"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Attack of the Colonies",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Rafts",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Storage"],
+				"uniques": [""],
+			},
+				{
+				"name": "Researchers",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Bartering"],
+				"uniques": [""],
+			},
+			{
+				"name": "Stockpiles",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Species Protection", "Bartering"],
+				"uniques": [""],
+			},
+				{
+				"name": "Doors",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Tunnels"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Rafts",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Storage"],
+				"uniques": [""],
+			},
+				{
+				"name": "Societal Order",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Researchers", "Stockpiles"],
+				"uniques": [""],
+			},
+			{
+				"name": "Stockpiles",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Species Protection", "Bartering"],
+				"uniques": [""],
+			},
+				{
+				"name": "Doors",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Tunnels"],
+				"uniques": [""],
+			}]
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 ]
