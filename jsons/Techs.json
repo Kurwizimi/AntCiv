@@ -95,7 +95,7 @@
 		"wonderCost": 100,
 		"techs": [
 				{
-				"name": "Rafts",
+				"name": "Climbing",
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Storage"],
@@ -141,7 +141,7 @@
 				"name": "Wooden Tools",
 				"row": 3,
 				"quote": "",
-				"prerequisites": ["Researchers"],
+				"prerequisites": ["Climbing","Researchers"],
 				"uniques": [""],
 			},
 				{
@@ -206,6 +206,128 @@
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Societal Order"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Ladders",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Wooden Tools"],
+				"uniques": [""],
+			},
+				{
+				"name": "Mercenaries",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Diplomats"],
+				"uniques": [""],
+			},
+			{
+				"name": "Grassways",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Diplomats", "Expeditionary Forces"],
+				"uniques": [""],
+			},
+			{
+				"name": "Slavery",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["Warrior Class"],
+				"uniques": [""],
+			},
+				{
+				"name": "Trenches",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Warrior Class"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Fences",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Ladders"],
+				"uniques": [""],
+			},
+				{
+				"name": "Engineer Corps.",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Mercanries"],
+				"uniques": [""],
+			},
+			{
+				"name": "Mounds",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Slavery", "Trenches"],
+				"uniques": [""],
+			},
+			{
+				"name": "Organised Trade",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["Grassways", "Slavery"],
+				"uniques": [""],
+			},
+				{
+				"name": "Landmarking",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["Warrior Class"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Husbandry",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Fences"],
+				"uniques": [""],
+			},
+				{
+				"name": "Walls",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Fences", "Engineer Corps."],
+				"uniques": [""],
+			},
+			{
+				"name": "Mining",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Engineer Corps.", "Mounds"],
+				"uniques": [""],
+			},
+				{
+				"name": "Organised Trade",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Organised Trade", "Landmarking"],
 				"uniques": [""],
 			}]
 	},
