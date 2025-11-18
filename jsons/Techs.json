@@ -270,7 +270,7 @@
 				"name": "Engineer Corps.",
 				"row": 4,
 				"quote": "",
-				"prerequisites": ["Mercanries"],
+				"prerequisites": ["Mercenries"],
 				"uniques": [""],
 			},
 			{
@@ -324,7 +324,7 @@
 				"uniques": [""],
 			},
 				{
-				"name": "Organised Trade",
+				"name": "Supply Chains",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Organised Trade", "Landmarking"],
