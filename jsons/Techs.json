@@ -483,6 +483,181 @@
 				"uniques": [""],
 			}]
 	},
+	{
+		"columnNumber": 15,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Garderners",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Our Purpose"],
+				"uniques": [""],
+			},
+			{
+				"name": "Builders",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Our Purpose"],
+				"uniques": [""],
+			},
+				{
+				"name": "Conquerers",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Our Purpose"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Farmers",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Gardeners"],
+				"uniques": [""],
+			},
+			{
+				"name": "Governers",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Gardeners", "Builders"],
+				"uniques": [""],
+			},
+				{
+				"name": "Engineers",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Builders"],
+				"uniques": [""],
+			},
+			{
+				"name": "Teachers",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Engineer Corps.", "Conquerers"],
+				"uniques": [""],
+			},
+				{
+				"name": "Generals",
+				"row": 10,
+				"quote": "",
+				"prerequisites": ["Conquerers"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Agriculture",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Farmers"],
+				"uniques": [""],
+			},
+			{
+				"name": "Irrigation",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Farmers", "Governers"],
+				"uniques": [""],
+			},
+				{
+				"name": "Communities",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Governers", "Builders"],
+				"uniques": [""],
+			},
+			{
+				"name": "Neighbourhoods",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Engineers"],
+				"uniques": [""],
+			},
+			{
+				"name": "Construction",
+				"row": 7,
+				"quote": "",
+				"prerequesites": ["Engineers", "Teachers"],
+				"uniques": [""],
+			},
+			{
+				"name": "Military Training",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Teachers", "Generals"],
+				"uniques": [""],
+			},
+				{
+				"name": "Professional Army",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["Generals"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 18,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Kindness",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Agriculture", "Irrigation"],
+				"uniques": [""],
+			},
+			{
+				"name": "Pride",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Communities", "Neighbourhoods", "Construction"],
+				"uniques": [""],
+			},
+				{
+				"name": "Honour",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Military Training", "Professional Army"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Sentience",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Kindness", "Pride", "Honour"],
+				"uniques": ["Can be continually researched"],
+			}]
+	},
+	
+	
 
 
 
