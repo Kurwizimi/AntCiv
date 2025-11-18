@@ -291,7 +291,7 @@
 				"name": "Landmarking",
 				"row": 9,
 				"quote": "",
-				"prerequisites": ["Basic Exccavation"],
+				"prerequisites": ["Basic Excavation"],
 				"uniques": [""],
 			}]
 	},
