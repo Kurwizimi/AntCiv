@@ -339,7 +339,7 @@
 		"wonderCost": 100,
 		"techs": [
 				{
-				"name": "Ladders",
+				"name": "Star Charts",
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Ladders"],
@@ -435,7 +435,7 @@
 				"name": "Silk Road",
 				"row": 6,
 				"quote": "",
-				"prerequisites": ["Land Claims", "Currancy"],
+				"prerequisites": ["Land Claims", "Currency"],
 				"uniques": [""],
 			},
 			{
