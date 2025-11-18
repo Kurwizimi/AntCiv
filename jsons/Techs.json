@@ -331,6 +331,165 @@
 				"uniques": [""],
 			}]
 	},
+	{
+		"columnNumber": 10,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Ladders",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Ladders"],
+				"uniques": [""],
+			},
+			{
+				"name": "Preservation",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Husbandry"],
+				"uniques": [""],
+			},
+			{
+				"name": "Forts",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Walls", "Mining"],
+				"uniques": [""],
+			},
+			{
+				"name": "Alliances",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Walls", "Organised Trade"],
+				"uniques": [""],
+			},
+				{
+				"name": "Casus Belli",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Supply Chains"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Harvest",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Star Charts", "Preservation"],
+				"uniques": [""],
+			},
+			{
+				"name": "Domestication",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["Preservation", "Walls"],
+				"uniques": [""],
+			},
+			{
+				"name": "Land Claims",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Forts", "Alliances"],
+				"uniques": [""],
+			},
+			{
+				"name": "Currency",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Alliances", "Supply Chains"],
+				"uniques": [""],
+			},
+				{
+				"name": "Early Weapons",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Casus Belli"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Frontier Control",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Harvest", "Domestication"],
+				"uniques": [""],
+			},
+			{
+				"name": "Silk Road",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Land Claims", "Currancy"],
+				"uniques": [""],
+			},
+			{
+				"name": "Flight",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["Early Weapons"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Diplomacy",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["Frontier Control"],
+				"uniques": [""],
+			},
+			{
+				"name": "Philosophy",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Silk Road"],
+				"uniques": [""],
+			},
+				{
+				"name": "Cartography",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["Flight"],
+				"uniques": [""],
+			}]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Revenge of the Mites",
+		"techCost": 10,
+		"buildingCost": 100,
+		"wonderCost": 100,
+		"techs": [
+				{
+				"name": "Our Purpose",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Diplomacy", "Philosophy", "Cartography"],
+				"uniques": [""],
+			}]
+	},
 
 
 
