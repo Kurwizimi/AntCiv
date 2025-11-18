@@ -630,7 +630,7 @@
 				"name": "Pride",
 				"row": 6,
 				"quote": "",
-				"prerequisites": ["Communities", "Neighbourhoods", "Construction"],
+				"prerequisites": ["Communities", "Neighbourhoods", "Mechanics"],
 				"uniques": [""],
 			},
 				{
