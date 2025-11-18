@@ -180,6 +180,13 @@
 		"buildingCost": 100,
 		"wonderCost": 100,
 		"techs": [
+			{
+				"name": "Ladders",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["Wooden Tools"],
+				"uniques": [""],
+			},
 				{
 				"name": "Sleeping Quarters",
 				"row": 3,
@@ -198,14 +205,14 @@
 				"name": "Expeditionary Forces",
 				"row": 6,
 				"quote": "",
-				"prerequisites": ["Societal Order"],
+				"prerequisites": ["Societal Order", "Nurseries"],
 				"uniques": [""],
 			},
 				{
 				"name": "Warrior Class",
 				"row": 8,
 				"quote": "",
-				"prerequisites": ["Societal Order"],
+				"prerequisites": ["Societal Order", "Nurseries"],
 				"uniques": [""],
 			}]
 	},
@@ -217,17 +224,10 @@
 		"wonderCost": 100,
 		"techs": [
 				{
-				"name": "Ladders",
-				"row": 2,
-				"quote": "",
-				"prerequisites": ["Wooden Tools"],
-				"uniques": [""],
-			},
-				{
 				"name": "Mercenaries",
 				"row": 4,
 				"quote": "",
-				"prerequisites": ["Diplomats"],
+				"prerequisites": ["Sleeping Quarters", "Diplomats"],
 				"uniques": [""],
 			},
 			{
@@ -291,7 +291,7 @@
 				"name": "Landmarking",
 				"row": 9,
 				"quote": "",
-				"prerequisites": ["Warrior Class"],
+				"prerequisites": ["Basic Exccavation"],
 				"uniques": [""],
 			}]
 	},
