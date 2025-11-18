@@ -594,7 +594,7 @@
 				"name": "Mechanics",
 				"row": 7,
 				"quote": "",
-				"prerequesites": ["Architects", "Teachers"],
+				"prerequisites": ["Architects", "Teachers"],
 				"uniques": [""],
 			},
 			{
