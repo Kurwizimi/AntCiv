@@ -281,7 +281,7 @@
 				"uniques": [""],
 			},
 			{
-				"name": "Mounds",
+				"name": "Landmarking",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Slavery", "Trenches"],
@@ -313,7 +313,7 @@
 				"name": "Mining",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Engineer Corps.", "Mounds"],
+				"prerequisites": ["Engineer Corps.", "Landmarking"],
 				"uniques": [""],
 			},
 				{
