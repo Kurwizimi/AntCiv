@@ -282,7 +282,7 @@
 			},
 			{
 				"name": "Mounds",
-				"row": 6,
+				"row": 7,
 				"quote": "",
 				"prerequisites": ["Slavery", "Trenches"],
 				"uniques": [""],
