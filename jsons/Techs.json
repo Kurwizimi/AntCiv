@@ -270,7 +270,7 @@
 				"name": "Engineer Corps.",
 				"row": 4,
 				"quote": "",
-				"prerequisites": ["Mercenries"],
+				"prerequisites": ["Mercenaries"],
 				"uniques": [""],
 			},
 			{
