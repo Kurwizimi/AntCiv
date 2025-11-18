@@ -534,7 +534,7 @@
 				"uniques": [""],
 			},
 				{
-				"name": "Engineers",
+				"name": "Architects",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Builders"],
@@ -544,7 +544,7 @@
 				"name": "Teachers",
 				"row": 8,
 				"quote": "",
-				"prerequisites": ["Engineer Corps.", "Conquerers"],
+				"prerequisites": ["Builders", "Conquerers"],
 				"uniques": [""],
 			},
 				{
@@ -580,21 +580,21 @@
 				"name": "Communities",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Governers", "Builders"],
+				"prerequisites": ["Governers", "Architects"],
 				"uniques": [""],
 			},
 			{
 				"name": "Neighbourhoods",
 				"row": 6,
 				"quote": "",
-				"prerequisites": ["Engineers"],
+				"prerequisites": ["Architects"],
 				"uniques": [""],
 			},
 			{
 				"name": "Construction",
 				"row": 7,
 				"quote": "",
-				"prerequesites": ["Engineers", "Teachers"],
+				"prerequesites": ["Architects", "Teachers"],
 				"uniques": [""],
 			},
 			{
