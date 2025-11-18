@@ -282,16 +282,9 @@
 			},
 			{
 				"name": "Mounds",
-				"row": 7,
+				"row": 8,
 				"quote": "",
 				"prerequisites": ["Slavery", "Trenches"],
-				"uniques": [""],
-			},
-				{
-				"name": "Landmarking",
-				"row": 9,
-				"quote": "",
-				"prerequisites": ["Basic Excavation"],
 				"uniques": [""],
 			}]
 	},
@@ -397,14 +390,14 @@
 			},
 			{
 				"name": "Land Claims",
-				"row": 5,
+				"row": 6,
 				"quote": "",
 				"prerequisites": ["Forts", "Alliances"],
 				"uniques": [""],
 			},
 			{
 				"name": "Currency",
-				"row": 6,
+				"row": 7,
 				"quote": "",
 				"prerequisites": ["Alliances", "Supply Chains"],
 				"uniques": [""],
