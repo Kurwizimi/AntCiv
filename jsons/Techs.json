@@ -361,7 +361,7 @@
 			},
 			{
 				"name": "Alliances",
-				"row": 7,
+				"row": 6,
 				"quote": "",
 				"prerequisites": ["Walls", "Organised Trade"],
 				"uniques": [""],
@@ -383,28 +383,28 @@
 		"techs": [
 				{
 				"name": "Harvest",
-				"row": 2,
+				"row": 3,
 				"quote": "",
 				"prerequisites": ["Star Charts", "Preservation"],
 				"uniques": [""],
 			},
 			{
 				"name": "Domestication",
-				"row": 3,
+				"row": 4,
 				"quote": "",
 				"prerequisites": ["Preservation", "Walls"],
 				"uniques": [""],
 			},
 			{
 				"name": "Land Claims",
-				"row": 4,
+				"row": 5,
 				"quote": "",
 				"prerequisites": ["Forts", "Alliances"],
 				"uniques": [""],
 			},
 			{
 				"name": "Currency",
-				"row": 7,
+				"row": 6,
 				"quote": "",
 				"prerequisites": ["Alliances", "Supply Chains"],
 				"uniques": [""],
@@ -426,7 +426,7 @@
 		"techs": [
 				{
 				"name": "Frontier Control",
-				"row": 2,
+				"row": 3,
 				"quote": "",
 				"prerequisites": ["Harvest", "Domestication"],
 				"uniques": [""],
