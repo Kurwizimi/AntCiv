@@ -162,16 +162,9 @@
 				"name": "Nurseries",
 				"row": 7,
 				"quote": "",
-				"prerequisites": ["Doors"],
+				"prerequisites": ["Doors", "Pheromones"],
 				"uniques": [""],
-			},
-				{
-				"name": "Basic Excavation",
-				"row": 9,
-				"quote": "",
-				"prerequisites": ["Doors"],
-				"uniques": [""],
-			}]
+			},]
 	},
 {
 		"columnNumber": 6,
@@ -198,7 +191,7 @@
 				"name": "Diplomats",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Wooden Tools", "Bridges"],
+				"prerequisites": ["Wooden Tools", "Bridges", "Societal Order"],
 				"uniques": [""],
 			},
 			{
@@ -213,6 +206,13 @@
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Societal Order", "Nurseries"],
+				"uniques": [""],
+			}
+		{
+				"name": "Basic Excavation",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["Doors"],
 				"uniques": [""],
 			}]
 	},
@@ -248,7 +248,7 @@
 				"name": "Trenches",
 				"row": 8,
 				"quote": "",
-				"prerequisites": ["Warrior Class"],
+				"prerequisites": ["Warrior Class", "Basic Excavation"],
 				"uniques": [""],
 			}]
 	},
@@ -274,17 +274,17 @@
 				"uniques": [""],
 			},
 			{
+				"name": "Organised Trade",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["Grassways", "Slavery"],
+				"uniques": [""],
+			},
+			{
 				"name": "Mounds",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Slavery", "Trenches"],
-				"uniques": [""],
-			},
-			{
-				"name": "Organised Trade",
-				"row": 7,
-				"quote": "",
-				"prerequisites": ["Grassways", "Slavery"],
 				"uniques": [""],
 			},
 				{
