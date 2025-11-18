@@ -491,7 +491,7 @@
 		"wonderCost": 100,
 		"techs": [
 				{
-				"name": "Garderners",
+				"name": "Gardeners",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Our Purpose"],
