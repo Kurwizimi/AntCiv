@@ -64,12 +64,30 @@
             "A Region is formed with at least [30]% [Sand] tiles, with priority [6]",
             "A Region can not contain more [Soil] tiles than [Sand] tiles",
             "Considered [Desirable] when determining start locations",
-            "Considered [Food] when determining start locations <in [Tundra] Regions>",
+            "Considered [Food] when determining start locations <in [Mud] Regions>",
             "Considered [Food] when determining start locations <in [Concrete] Regions>",
             "Considered [Food] when determining start locations <in [Rock] Regions>",
             "Considered [Food] when determining start locations <in [Sand] Regions>",
             "Considered [Food] when determining start locations <in [Hybrid] Regions>",
             "Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Mud", //Tundra
+		"type": "Land",
+		"food": 1,
+		"movementCost": 1,
+		"RGB": [124, 62, 57],
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+            "[+2] to Fertility for Map Generation",
+            "A Region is formed with at least [30]% [Mud] tiles and [Brick] tiles, with priority [1]",
+            "Considered [Food] when determining start locations <in [Mud] Regions>",
+            "Considered [Desirable] when determining start locations <in [Mud] Regions>",
+            "Becomes [Sand] when adjacent to [River]",
+            "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Concrete", //Desert
@@ -83,7 +101,7 @@
             "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
             "[+1] to Fertility for Map Generation",
             "A Region is formed with at least [25]% [Concrete] tiles, with priority [4]",
-            "Becomes [Flood Sand] when adjacent to [River]",
+            "Becomes [Wet Sand] when adjacent to [River]",
             "Considered [Undesirable] when determining start locations <in all except [Concrete] Regions>",
             "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -99,6 +117,23 @@
             "Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
+	},
+	{
+		"name": "Brick", //Snow
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 238, 255], //Darker229, 229, 255
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Mud] when adjacent to [River]",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Never receives any resources <in [Rock] tiles>"]
 	},
 
 	// Terrain features
@@ -143,7 +178,7 @@
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
 					"Considered [Food] when determining start locations <in [Grass] Regions>",
-					"Considered [Food] when determining start locations <in [Tundra] Regions>",
+					"Considered [Food] when determining start locations <in [Mud] Regions>",
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
@@ -183,7 +218,18 @@
 		"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
 	},
 	{
-		"name": "Moss",
+		"name": "Wet Sand", //Flood Plains
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Concrete"],
+		"uniques": ["Always Fertility [5] for Map Generation",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Moss", //Oasis
 		"type": "TerrainFeature",
 		"food": 2,
 		"movementCost": 1,
