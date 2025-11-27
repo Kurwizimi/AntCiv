@@ -1,6 +1,6 @@
 [
 		{
-		"name": "Recolectors",
+		"name": "Recollectors",
 		"terrainsCanBeBuiltOn": ["Bush","Branches","Soil","Sand","Concrete","Rock","Grass","Stick","Leaf","Moss"],
 		"production": 1,
 		"turnsToBuild": 7,
@@ -10,17 +10,17 @@
 
 	//Unbuildable
 		{
-		"name": "City center",
+		"name": "Central Hive",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Irremovable","Unbuildable"],
 	},
 		{
-		"name": "City ruins",
+		"name": "Destroyed Hive",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [ "Unpillagable", "Unbuildable", "Will be replaced by automated workers", "Provides a random bonus when entered"]
 	},
 		{
-		"name": "Ancient ruins",
+		"name": "Abandoned Anthill",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered", "Unbuildable", "Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
 	},
