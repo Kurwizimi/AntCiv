@@ -13,6 +13,22 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Throne",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Shrine to the Queen",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Storage",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
 		"name": "Workers Chamber",
 		"production": 1,
 		"cost": 20,
@@ -23,18 +39,18 @@
 		"name": "Soldiers Chamber",
 		"production": 1,
 		"cost": 20,
-		"uniques": ["[+1 Production] from [{unimproved} {Bonus resource}] tiles [in this city]"],
+		"uniques": ["[+1 Production] from [{unimproved} {Strategic resource}] tiles [in this city]"],
 		"requiredTech": "Nest Defence"
 	},
 	{
-		"name": "Food storage",
+		"name": "Food Storage",
 		"food": 1,
 		"cost": 20,
 		"uniques": ["[+1 Food] from [{unimproved} {Bonus resource}] tiles [in this city]"],
 		"requiredTech": "Storage"
 	},
 	{
-		"name": "Resource storage",
+		"name": "Resource Storage",
 		"production": 1,
 		"science": 1,
 		"culture": 1,
@@ -43,12 +59,76 @@
 		"uniques": ["[+1 Gold] from [{unimproved} {Luxury resource}] tiles [in this city]"],
 	},
 	{
-		"name": "Ant defence",
+		"name": "Ant Defence",
 		"cityStrength": 50,
 		"cityHealth": 50,
 		"cost": 20,
 		"requiredTech": "Species Protection"
 	},
+	{
+		"name": "Boulevard",
+		"happiness": 1,
+		"production": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Clay"],
+		"uniques": ["[+1 Production] from [Clay] tiles [in this city]"],
+		"requiredTech": "Basic Paths"
+	},
+	{
+		"name": "Underground Chambers",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Hill]"],
+		"requiredTech": "Tunnels"
+	},
+
+
+	//re
+
+	{
+		"name": "Lookout",
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Must be next to [Branches]", "[+1 Food] from [Bush] tiles [in this city]",
+			"[+1 Food] from [Branches] tiles [in this city]" ], //food of fish
+		"requiredTech": "Climbing"
+	},
+	{
+		"name": "School",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Researchers"
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Removes extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>"],
+		"requiredTech": "Societal Order"
+	},
+	{
+		"name": "Private Chambers",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Doors"
+	},
+	{
+		"name": "Priest Complex",
+		"faith": 2,
+		"requiredBuilding": "Shrine to the Queen",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Societal Order",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
 
 
 ]
+
