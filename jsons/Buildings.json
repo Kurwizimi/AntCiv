@@ -30,16 +30,16 @@
 	},
 	{
 		"name": "Workers Chamber",
-		"production": 1,
+		"production": 2,
 		"cost": 20,
-		"uniques": ["[+1 Production] from [{unimproved} {Bonus resource}] tiles [in this city]"],
+		"uniques": [],
 		"requiredTech": "Burrowing"
 	},
 	{
 		"name": "Soldiers Chamber",
 		"production": 1,
 		"cost": 20,
-		"uniques": ["[+1 Production] from [{unimproved} {Strategic resource}] tiles [in this city]"],
+		"uniques": ["[+10]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Nest Defence"
 	},
 	{
@@ -51,8 +51,6 @@
 	},
 	{
 		"name": "Resource Storage",
-		"production": 1,
-		"science": 1,
 		"culture": 1,
 		"cost": 20,
 		"maintenance": 2,
@@ -70,7 +68,7 @@
 		"happiness": 1,
 		"production": 2,
 		"maintenance": 1,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Clay"],
 		"uniques": ["[+1 Production] from [Clay] tiles [in this city]"],
 		"requiredTech": "Basic Paths"
@@ -131,4 +129,5 @@
 
 
 ]
+
 
