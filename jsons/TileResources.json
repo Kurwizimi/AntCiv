@@ -4,7 +4,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf","Moss"],
 		"production": 1,
-		"improvement": "Recolelctors",
+		"improvement": "Recollectors",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [13] tiles <in [Sand] tiles>",
 					"Generated on every [10] tiles <in [Soil] tiles>"]
