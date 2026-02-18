@@ -34,7 +34,7 @@
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Terragenesis"],
-				"uniques": ["[+1 Movement] Movement <for [Scout] units>"],
+				"uniques": ["[+1 ] Movement <for [Scout] units>"],
 			},
 				{
 				"name": "Nest Defence",
