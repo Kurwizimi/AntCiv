@@ -4,7 +4,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf","Moss"],
 		"production": 1,
-		"improvement": "Recolectors",
+		"improvement": "Recolelctors",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [13] tiles <in [Sand] tiles>",
 					"Generated on every [10] tiles <in [Soil] tiles>"]
@@ -14,7 +14,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Leaf","Grass"],
 		"food": 1,
-		"improvement": "Recolectors",
+		"improvement": "Recollectors",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [13] tiles <in [Leaf] tiles>",
 					"Generated on every [10] tiles <in [Grass] tiles>"]
@@ -24,7 +24,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Stick","Grass","Soil"],
 		"gold": 1,
-		"improvement": "Recolectors",
+		"improvement": "Recollectors",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Stick] Regions>",
 					"Generated with weight [40] <in [Grass] Regions>",
