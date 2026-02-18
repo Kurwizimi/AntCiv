@@ -149,7 +149,7 @@
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Researchers", "Basic Paths"],
-				"uniques": [],
+				"uniques": ["Roads connect tiles across rivers"],
 			},
 			{
 				"name": "Societal Order",
@@ -199,7 +199,7 @@
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Societal Order", "Nurseries"],
-				"uniques": [""],
+				"uniques": ["Improves movement speed on roads"],
 			},
 				{
 				"name": "Warrior Class",
