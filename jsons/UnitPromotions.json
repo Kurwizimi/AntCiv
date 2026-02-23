@@ -10,5 +10,18 @@
 
 
 
+	//Tile Improvements
+	{
+        "name": "Temporary Stockpile",
+        "uniques": ["[+10] HP when healing"]
+    },
+	{
+        "name": "Stick Traps",
+        "uniques": ["[-10]% Strength", "[-1] Movement"]
+    },
+	{
+        "name": "Watchtower",
+        "uniques": ["[+1] Sight"]
+    },
 
 ]
