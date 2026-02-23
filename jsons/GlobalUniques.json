@@ -28,5 +28,13 @@
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
 */
-    ]
+    ],
+	"unitUniques": [
+		"[This Unit] gains the [Temporary Stockpile] promotion <upon entering a [Temporary Stockpile] tile>", "[This Unit] loses the [Temporary Stockpile] promotion <upon entering a [non-[Temporary Stockpile]] tile>",
+		"[This Unit] gains the [Stick Traps] promotion <upon entering a [Stick Traps] tile>", "[This Unit] loses the [Stick Traps] promotion <upon entering a [non-[Stick Traps]] tile>",
+		"[This Unit] gains the [Watchtower] promotion <upon entering a [Watchtower] tile>", "[This Unit] loses the [Watchtower] promotion <upon entering a [non-[Watchtower]] tile>"
+	]
+
+
+	
 }
