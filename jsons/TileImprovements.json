@@ -46,6 +46,45 @@
 		"shortcutKey": "M"
 	},
 
+	//Geta Improvements
+	{
+		"name": "Star Chart",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 6,
+		"uniques": ["Great Improvement", "[+3 Science] <after discovering [Star Charts]>",
+            "[+3 Science] <after discovering [Cartography]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Council House",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 4,
+		"uniques": ["[+3 Culture] <for every [Completed Policy branches]>", "Great Improvement", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Borehole",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Mining]>", "Will not be replaced by automated units",
+            "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Trading Dome",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Slavery]>","[+1 Gold] <after discovering [Organised Trade]>",
+			"[+1 Gold] <after discovering [Currency]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Petty Throne",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 4,
+		"gold": 1,
+		"uniques": ["Great Improvement", "[+1 Gold] for each adjacent [Royal Plaza]","Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+
 	//Roads
 	{
 		"name": "Road",
