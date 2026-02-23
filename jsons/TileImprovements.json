@@ -4,8 +4,18 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Leaf"],
 		"production": 1,
 		"turnsToBuild": 7,
-		"uniques": [ "Pillaging this improvement yields approximately [+25 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fences]>", "Pillaging this improvement yields approximately [+25 Gold]"],
 		"shortcutKey": "R"
+	},
+	{
+		"name": "Hunting Ground",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"food": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Production] <after discovering [Fences]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
 	},
 	{
 		"name": "Scavenge Plot",
@@ -24,6 +34,16 @@
 		"techRequired": "Slavery",
 		"uniques": ["[+1 Gold] <after discovering [Supply Chains]>", "[+1 Gold] <after discovering [Currency]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
+	},
+	{
+		"name": "Royal Plaza",
+		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Grass","Stick","Leaf","Moss"],
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Diplomats",
+		"uniques": ["[+1 Culture, +1 Faith] <after discovering [Landmarking]>", "Can only be built on [Open terrain] tiles", "Costs [1] [Gold] per turn when in your territory",
+			"Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
 	},
 
 	//Roads
