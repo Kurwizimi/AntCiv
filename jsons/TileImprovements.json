@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Hunting Ground",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Grass"],
 		"food": 1,
 		"gold": 1,
 		"turnsToBuild": 7,
@@ -44,6 +44,15 @@
 		"uniques": ["[+1 Culture, +1 Faith] <after discovering [Landmarking]>", "Can only be built on [Open terrain] tiles", "Costs [1] [Gold] per turn when in your territory",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
+	},
+
+	{
+		"name": "Harvester",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Bartering",
+		"uniques": ["[+1 Food] <after discovering [Harvest]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "H"
 	},
 
 	//Geta Improvements
