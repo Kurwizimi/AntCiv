@@ -6,14 +6,14 @@
 		"cost": 50,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population", 
-			"Only available <in cities with a [Queen chamber]>"]
+			"Only available <in cities with a [Queen Chamber]>"]
 	},
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action", 
-			"Only available <in cities with a [Workers chamber]>"],
+			"Only available <in cities with a [Workers Chamber]>"],
 		"cost": 20
 	},
 	{
@@ -33,7 +33,7 @@
 		"strength": 5,
 		"cost": 25,
 		"requiredTech": "Nest Defence",
-		"uniques" : ["Never appears as a Barbarian unit"],
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]>", "Never appears as a Barbarian unit"],
 		//"attackSound": "nonmetalhit",
 	}, 
 	{
