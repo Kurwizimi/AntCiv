@@ -4,7 +4,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf","Moss"],
 		"production": 1,
-		"improvement": "Recollectors",
+		"improvement": "Harvester",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [13] tiles <in [Sand] tiles>",
 					"Generated on every [10] tiles <in [Soil] tiles>"]
@@ -14,17 +14,77 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Leaf","Grass"],
 		"food": 1,
-		"improvement": "Recollectors",
+		"improvement": "Harvester",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [13] tiles <in [Leaf] tiles>",
 					"Generated on every [10] tiles <in [Grass] tiles>"]
 	},
 	{
+		"name": "Seeds",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Soil","Sand"],
+		"food": 1,
+		"improvement": "Harvester",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [15] tiles <in [Sand] tiles>",
+					"Generated on every [10] tiles <in [Soil] tiles>"]
+	},
+	{
+		"name": "Pinecone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Soil","Sand","Concrete","Grass","Stick"],
+		"food": 1,
+		"improvement": "Harvester",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [16] tiles <in [{Sand} {Grass}] tiles>",
+					"Generated on every [14] tiles <in [{Sand} {Stick}] tiles>",
+					"Generated on every [13] tiles <in [{Soil} {Grass}] tiles>",
+					"Generated on every [12] tiles <in [{Soil} {Stick}] tiles>",
+					"Generated on every [20] tiles <in [Concrete] tiles>",]
+	},
+	{
+		"name": "Nectar",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grass","Mud"],
+		"food": 1,
+		"improvement": "Harvester",
+		"improvementStats": {"culture": 2},
+		"uniques": ["Generated on every [8] tiles <in [{Mud} {Grass}] tiles>",
+					"Generated on every [21] tiles <in [{Sand} {Grass}] tiles> <in tiles without [Hill]>",
+					"Generated on every [21] tiles <in [{Soil} {Grass}] tiles> <in tiles without [Hill]>",
+					"Generated on every [18] tiles <in [Grass] tiles> <in [Rock] Regions>"]
+	},
+	{
+		"name": "Fresh Detritus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sand"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [17] tiles <in [{Featureless} {Sand}] tiles>",
+					"Generated on every [20] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Old Detritus",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Sand", "Concrete"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Sand}] tiles>",
+					"Generated on every [25] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>",
+					["Generated on every [16] tiles <in [Concrete] tiles>",
+					"Generated on every [19] tiles <in [Concrete] tiles> <in [Hill] Regions>"]
+	},
+
+
+	//Luxury
+	{
 		"name": "Flowers",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Stick","Grass","Soil"],
 		"gold": 1,
-		"improvement": "Recollectors",
+		"improvement": "Harvester",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Stick] Regions>",
 					"Generated with weight [40] <in [Grass] Regions>",
