@@ -34,7 +34,7 @@
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Terragenesis"],
-				"uniques": ["[+1 ] Movement <for [Scout] units>"],
+				"uniques": ["[+1] Movement <for [Scout] units>"],
 			},
 				{
 				"name": "Nest Defence",
@@ -63,7 +63,7 @@
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Storage", "Early Scavenging"],
-				"uniques": ["Gain [15] [Gold] <upon discovering a [City center] tile> "],
+				"uniques": ["Gain [15] [Gold] <upon discovering a [City center] tile>"],
 			},
 			{
 				"name": "Basic Paths",
@@ -106,7 +106,7 @@
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Bartering"],
-				"uniques": [],
+				"uniques": ["Enables establishment of embassies"],
 			},
 			{
 				"name": "Stockpiles",
@@ -156,7 +156,7 @@
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Stockpiles", "Pheromones", "Doors"],
-				"uniques": [],
+				"uniques": ["Enables Open Borders agreements"],
 			},
 			{
 				"name": "Nurseries",
@@ -185,14 +185,14 @@
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Wooden Tools"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Diplomats",
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Wooden Tools", "Bridges", "Societal Order"],
-				"uniques": [""],
+				"uniques": ["Enables Research agreements"],
 			},
 			{
 				"name": "Expeditionary Forces",
@@ -206,14 +206,14 @@
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Societal Order", "Nurseries"],
-				"uniques": [""],
+				"uniques": [],
 			}
 		{
 				"name": "Basic Excavation",
 				"row": 9,
 				"quote": "",
 				"prerequisites": ["Doors"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
@@ -228,28 +228,28 @@
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Sleeping Quarters", "Diplomats"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Grassways",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Diplomats", "Expeditionary Forces"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Slavery",
 				"row": 7,
 				"quote": "",
 				"prerequisites": ["Warrior Class"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Trenches",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Warrior Class", "Basic Excavation"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
@@ -264,28 +264,28 @@
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Ladders"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Engineer Corps.",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Mercenaries"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Organised Trade",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Grassways", "Slavery"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Landmarking",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Slavery", "Trenches"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
@@ -300,28 +300,28 @@
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Fences"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Walls",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Fences", "Engineer Corps."],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Mining",
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Engineer Corps.", "Landmarking"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Supply Chains",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Organised Trade", "Landmarking"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
@@ -336,35 +336,35 @@
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Ladders"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Preservation",
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Husbandry"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Forts",
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Walls", "Mining"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Alliances",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Walls", "Organised Trade"],
-				"uniques": [""],
+				"uniques": ["Enables Defensive Pacts"],
 			},
 				{
 				"name": "Casus Belli",
 				"row": 9,
 				"quote": "",
 				"prerequisites": ["Supply Chains"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
@@ -527,7 +527,7 @@
 				"uniques": [""],
 			},
 			{
-				"name": "Governers",
+				"name": "Governors",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Gardeners", "Builders"],
