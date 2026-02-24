@@ -76,6 +76,14 @@
 					"Generated on every [16] tiles <in [Concrete] tiles>",
 					"Generated on every [19] tiles <in [Concrete] tiles> <in [Hill] Regions>"]
 	},
+	{
+		"name": "Berries",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Branches"],
+		"food": 1,
+		"improvement": "Picking Orchard",
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Branches}] tiles>"]
+	},
 
 
 	//Luxury
