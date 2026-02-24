@@ -178,7 +178,7 @@
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Wooden Tools"],
-				"uniques": [""],
+				"uniques": ["Enables embarkation for land units"],
 			},
 				{
 				"name": "Sleeping Quarters",
