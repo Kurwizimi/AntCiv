@@ -59,7 +59,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Sand"],
 		"food": 1,
-		"improvement": "Pasture",
+		"improvement": "Harvester",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [17] tiles <in [{Featureless} {Sand}] tiles>",
 					"Generated on every [20] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>"]
@@ -69,7 +69,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Sand", "Concrete"],
 		"production": 1,
-		"improvement": "Pasture",
+		"improvement": "Harvester",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Sand}] tiles>",
 					"Generated on every [25] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>",
@@ -80,7 +80,7 @@
 
 	//Luxury
 	{
-		"name": "Flowers",
+		"name": "Wildflower",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Stick","Grass","Soil"],
 		"gold": 1,
@@ -89,5 +89,59 @@
 		"uniques": ["Generated with weight [5] <in [Stick] Regions>",
 					"Generated with weight [40] <in [Grass] Regions>",
 					"Generated with weight [30] <in [Soil] Regions>",]
+	},
+	{
+		"name": "Wilted Flower",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grass","Mud"],
+		"gold": 1,
+		"improvement": "Harvester",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated with weight [30] <in [Mud] Regions>",
+					"Generated with weight [10] <in [Grass] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Glitter",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Rock","Grass","Sticks","Mud","Soil"],
+		"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"culture": 1},
+		"uniques": ["Generated with weight [25] <in [Mud] Regions>",
+					"Generated with weight [30] <in [Rock] Regions>",
+					"Generated with weight [20] <in [Soil] Regions>",
+					"Generated with weight [10] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Grass] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Stick] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [{Soil} {Fresh Water}] tiles>",
+		]
+	},
+	{
+		"name": "Fallen Petals",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Sand","Concrete","Wet Sand"],
+		"happiness": 1,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [20] <in [Concrete] Regions>",
+					"Generated with weight [12] <in [Sand] Regions>",
+					"Generated with weight [8] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]"]
+	},
+	{
+		"name": "Breadcumbs",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Stick","Grass","Leaf"],
+		"food": 2,
+		"improvement": "Plantation",
+		"uniques": ["Generated with weight [30] <in [Stick] Regions>",
+					"Generated with weight [10] <in [Grass] Regions>",
+					"Generated with weight [5] <in [Sand] Regions>",
+					"Generated with weight [5] <in [Soil] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Rock] tiles>",
+					"Doesn't generate naturally <in [{Mud} {Grass}] tiles>"]
 	},
 ]
