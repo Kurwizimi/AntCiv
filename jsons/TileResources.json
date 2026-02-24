@@ -73,7 +73,7 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Sand}] tiles>",
 					"Generated on every [25] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>",
-					["Generated on every [16] tiles <in [Concrete] tiles>",
+					"Generated on every [16] tiles <in [Concrete] tiles>",
 					"Generated on every [19] tiles <in [Concrete] tiles> <in [Hill] Regions>"]
 	},
 
