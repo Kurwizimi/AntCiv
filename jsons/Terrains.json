@@ -334,7 +334,7 @@
 		"occursOn": ["Mud","Soil"],
 		"uniques": ["Must be adjacent to [1] to [6] [Mud] tiles",
 			"Must be adjacent to [1] [Puddle] tiles",
-            "Neighboring tiles will convert to [Puddle] <in tiles without [Branches]>"]]
+            "Neighboring tiles will convert to [Puddle] <in tiles without [Branches]>"],
 		"turnsInto": "Puddle",
 		"impassable": true,
 		"unbuildable": true,
