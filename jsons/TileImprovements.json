@@ -54,6 +54,15 @@
 		"uniques": ["[+1 Food] <after discovering [Harvest]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "H"
 	},
+	{
+		"name": "Picking Orchard",
+		"turnsToBuild": 1,  // Allows this to be constructed for city-states
+		"terrainsCanBeBuiltOn": ["Branches"],
+		"food": 1,
+		"techRequired": "Climbing",
+		"uniques": ["[+1 Gold] <after discovering [Ladders]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "F"
+	},
 
 	//Geta Improvements
 	{
