@@ -1,0 +1,57 @@
+[
+{
+        "name": "Exploration",
+        "era": "The Formic Menace",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [60]% chance"],
+        "policies": [
+            {
+                "name": "Scout Parties",
+                "uniques": [ "[+15]% Strength <for [Scout] units>", "[+1] Sight <for [Scout] units>"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Apprenticeship",
+                "uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+                "requires": ["Scout Parties"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Sprinting",
+                "uniques": ["[+1] Movement <for [Scout] units>", "[+5] HP when healing <for [all] units> <when below [35] HP>"],
+                "requires": ["Scout Parties"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Species Logs",
+                "uniques": ["Gain [50] [Culture] <upon discovering a Natural Wonder>", "[+2 Gold] <for every [Remaining [{Known} {Major}] Civilizations]>"],
+                "requires": ["Apprenticeship"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Grass Ladders",
+                "uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Embarked] units>",],
+                "requires": ["Apprenticeship", "Sprinting"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Exploration Mastery",
+                "uniques": ["Can build [Watchtower] improvements at a [+75]% rate","Notified of new Barbarian encampments",
+                    "Get the leader title of [[leaderName] the All-Seeing]"
+                ]
+            }
+        ]
+    },
+  
+]
