@@ -29,7 +29,7 @@
                 "uniques": ["[+1] Movement <for [Scout] units>", "[+5] HP when healing <for [all] units> <when below [35] HP>"],
                 "requires": ["Scout Parties"],
                 "row": 2,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Species Logs",
@@ -43,7 +43,7 @@
                 "uniques": ["[+1] Movement <for [Water] units>","[+1] Movement <for [Embarked] units>",],
                 "requires": ["Apprenticeship", "Sprinting"],
                 "row": 3,
-                "column": 2
+                "column": 3
             },
             {
                 "name": "Exploration Complete",
