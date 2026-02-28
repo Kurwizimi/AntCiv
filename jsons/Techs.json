@@ -573,7 +573,7 @@
 				"name": "Irrigation",
 				"row": 3,
 				"quote": "",
-				"prerequisites": ["Farmers", "Governers"],
+				"prerequisites": ["Farmers", "Governors"],
 				"uniques": [""],
 			},
 				{
