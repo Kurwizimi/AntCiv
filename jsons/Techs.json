@@ -580,7 +580,7 @@
 				"name": "Communities",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["Governers", "Architects"],
+				"prerequisites": ["Governors", "Architects"],
 				"uniques": [""],
 			},
 			{
