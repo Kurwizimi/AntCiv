@@ -50,8 +50,8 @@
 		"improvement": "Harvester",
 		"improvementStats": {"culture": 2},
 		"uniques": ["Generated on every [8] tiles <in [{Mud} {Grass}] tiles>",
-					"Generated on every [21] tiles <in [{Sand} {Grass}] tiles> <in tiles without [Hill]>",
-					"Generated on every [21] tiles <in [{Soil} {Grass}] tiles> <in tiles without [Hill]>",
+					"Generated on every [21] tiles <in [{Sand} {Grass}] tiles> <in tiles without [Rock]>",
+					"Generated on every [21] tiles <in [{Soil} {Grass}] tiles> <in tiles without [Rock]>",
 					"Generated on every [18] tiles <in [Grass] tiles> <in [Rock] Regions>"]
 	},
 	{
@@ -62,7 +62,7 @@
 		"improvement": "Harvester",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [17] tiles <in [{Featureless} {Sand}] tiles>",
-					"Generated on every [20] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>"]
+					"Generated on every [20] tiles <in [{Featureless} {Sand}] tiles> <in [Rock] Regions>"]
 	},
 	{
 		"name": "Old Detritus",
@@ -72,9 +72,9 @@
 		"improvement": "Harvester",
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [20] tiles <in [{Featureless} {Sand}] tiles>",
-					"Generated on every [25] tiles <in [{Featureless} {Sand}] tiles> <in [Hill] Regions>",
+					"Generated on every [25] tiles <in [{Featureless} {Sand}] tiles> <in [Rock] Regions>",
 					"Generated on every [16] tiles <in [Concrete] tiles>",
-					"Generated on every [19] tiles <in [Concrete] tiles> <in [Hill] Regions>"]
+					"Generated on every [19] tiles <in [Concrete] tiles> <in [Rock] Regions>"]
 	},
 	{
 		"name": "Berries",
@@ -121,8 +121,8 @@
 					"Generated with weight [20] <in [Soil] Regions>",
 					"Generated with weight [10] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grass] tiles> <in tiles without [Hill]>",
-					"Doesn't generate naturally <in [Stick] tiles> <in tiles without [Hill]>",
+					"Doesn't generate naturally <in [Grass] tiles> <in tiles without [Rock]>",
+					"Doesn't generate naturally <in [Stick] tiles> <in tiles without [Rock]>",
 					"Doesn't generate naturally <in [{Soil} {Fresh Water}] tiles>",
 		]
 	},
