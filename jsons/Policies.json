@@ -46,7 +46,7 @@
                 "column": 2
             },
             {
-                "name": "Exploration Mastery",
+                "name": "Exploration Complete",
                 "uniques": ["Can build [Watchtower] improvements at a [+75]% rate","Notified of new Barbarian encampments",
                     "Get the leader title of [[leaderName] the All-Seeing]"
                 ]
