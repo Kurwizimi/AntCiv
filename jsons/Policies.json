@@ -53,11 +53,10 @@
                 "name": "Exploration Complete",
                 "uniques": ["Can build [Watchtower] improvements at a [+75]% rate",
                             "Notified of new Barbarian encampments",
-                    "Get the leader title of [[leaderName] the All-Seeing]"
-                ]
+                    "Get the leader title of [[leaderName] the All-Seeing]"]
             }
         ]
-    },
+},
 
 {
         "name": "Matriarchy",
@@ -111,10 +110,65 @@
                 "name": "Matriarchy Complete",
                 "uniques": ["[+1 Faith, +2 Gold] [in capital]",
                             "[+1 Production] [in holy cities]",
-                            "Get the leader title of [[leaderName] the Matriarch]"
-                ]
+                            "Get the leader title of [[leaderName] the Matriarch]"]
             }
         ]
-    },
+},
+
+{
+        "name": "Defence",
+        "era": "Revenge of the Mites",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 4,
+            "Diplomatic": 6,
+            "Domination": 7,
+            "Scientific": 4
+        },
+        "uniques": ["[+33]% Strength <vs [Barbarian] units>",
+                    "[+10]% Strength <for [Land] units> <when fighting units from a Civilization with more Cities than you>"],
+        "policies": [
+            {
+                "name": "Strength in Numbers",
+                "uniques": ["[+10]% Strength <for [Melee] units> <when defending>"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Rapid Response",
+                "uniques": ["[+10]% [Production] [in all cities] <for [5] turns> <upon being declared war on by [Major] Civilizations>",
+                            "[+10]% [Gold] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Hold the Line",
+                "uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
+                "requires": ["Strength in Numbers"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Escort Groups",
+                "uniques": ["All newly-trained [Military] units [in all cities] receive the [Escort Group] promotion",
+                            "[+1] Movement <for [Military] units> <when stacked with a [Civillian] unit>"],
+                "requires": ["Apprenticeship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Blockades",
+                "uniques": ["[+10]% Strength <for [Military} units> <when fighting in [{Friendly} {Road}] tiles>"],
+                "requires": ["Hold the Line", "Escort Groups"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Exploration Complete",
+                "uniques": ["Free [Fortifier] appears",
+                            "Get the leader title of [[leaderName] the Bastion]"]
+            }
+        ]
+},
   
 ]
