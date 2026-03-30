@@ -77,6 +77,16 @@
 		//"attackSound": "nonmetalhit",
 	}, 
 
+	//Policy
+	{
+		"name": "Fortifier",
+		"unitType": "Civilian",
+		"uniques": ["[+1]% Strength bonus for [Military] units within [2] tiles",
+          		    "Can instantly construct a [imperial Fort] improvement <by consuming this unit>",
+					"Unbuildable"],
+		"movement": 2
+	},
+
 //test
 	{
 		"name": "Human",
