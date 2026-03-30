@@ -10,6 +10,12 @@
 
 
 
+	//Policy
+	{
+		"name": "Escort Group",
+		"uniques": ["Transfer Movement to [Civilian]"]
+	},
+	
 	//Tile Improvements
 	{
         "name": "Temporary Stockpile",
