@@ -164,7 +164,7 @@
                 "column": 2
             },
             {
-                "name": "Exploration Complete",
+                "name": "Defence Complete",
                 "uniques": ["Free [Fortifier] appears",
                             "Get the leader title of [[leaderName] the Bastion]"]
             }
