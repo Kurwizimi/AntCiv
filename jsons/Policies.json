@@ -139,7 +139,7 @@
                 "uniques": ["[+10]% [Production] [in all cities] <for [5] turns> <upon being declared war on by [Major] Civilizations>",
                             "[+10]% [Gold] [in all cities] <for [5] turns> <upon declaring war on [Major] Civilizations>"],
                 "row": 1,
-                "column": 3
+                "column": 4
             },
             {
                 "name": "Hold the Line",
@@ -152,13 +152,13 @@
                 "name": "Escort Groups",
                 "uniques": ["All newly-trained [Military] units [in all cities] receive the [Escort Group] promotion",
                             "[+1] Movement <for [Military] units> <when stacked with a [Civillian] unit>"],
-                "requires": ["Apprenticeship"],
+                "requires": ["Rapid Response"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Blockades",
-                "uniques": ["[+10]% Strength <for [Military} units> <when fighting in [{Friendly} {Road}] tiles>"],
+                "uniques": ["[+10]% Strength <for [Military] units> <when fighting in [{Friendly} {Road}] tiles>"],
                 "requires": ["Hold the Line", "Escort Groups"],
                 "row": 3,
                 "column": 2
