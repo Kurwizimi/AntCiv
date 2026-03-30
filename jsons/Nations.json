@@ -119,10 +119,13 @@
 		"cities": ["Bee hive"],
 		"style": "bee"
 	},
+
+	//Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0, 0, 0],
-		"innerColor": [200, 0, 0],
-		"uniques": ["Can only heal by pillaging"]
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging",
+					"Excluded from map editor"]
 	}
 ]
