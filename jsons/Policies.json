@@ -230,7 +230,7 @@
                 "column": 2
             },
             {
-                "name": "Defence Complete",
+                "name": "Symbiosis Complete",
                 "uniques": ["Gifts of Gold to City-States generate [10]% more Influence",
                             "[-15]% City-State Influence degradation",
                             "Get the leader title of [[leaderName] the Open]"]
