@@ -176,10 +176,10 @@
         "era": "Revenge of the Mites",
         "priorities": {
             "Neutral": 5,
-            "Cultural": 4,
-            "Diplomatic": 6,
-            "Domination": 7,
-            "Scientific": 4
+            "Cultural": 6,
+            "Diplomatic": 8,
+            "Domination": 3,
+            "Scientific": 6
         },
         "uniques": ["[+10]% [Food] [in all cities] <for [5] turns> <upon founding a city>",
                     "[+15]% [Gold] [in all cities] <for [5] turns> <upon declaring a defensive pact>"],
@@ -234,6 +234,61 @@
                 "uniques": ["Gifts of Gold to City-States generate [10]% more Influence",
                             "[-15]% City-State Influence degradation",
                             "Get the leader title of [[leaderName] the Open]"]
+            }
+        ]
+},
+
+{
+        "name": "Cohesion",
+        "era": "Return of the Ants",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 4,
+            "Diplomatic": 5,
+            "Domination": 7,
+            "Scientific": 7
+        },
+        "uniques": ["[+25]% [Gold] [in capital]"],
+        "policies": [
+            {
+                "name": "Taxis",
+                "uniques": ["Can build [all] improvements at a [+25]% rate"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Schedules",
+                "uniques": ["[+10]% [Production] [in all cities] <while the empire is happy>"], //extra maintenance when unhappy
+                "requires": ["Taxis"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Messengers",
+                "uniques": ["[-20]% maintenance on road & railroads"],
+                "requires": ["Taxis"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Guilds",
+                "uniques": ["[+1 Gold] from every [Luxury resource]",
+                            "[+1 Production] from every [Strategic resource]"],
+                "requires": ["Schedules"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Non-Stop Work",
+                "uniques": ["[+15]% Production when constructing [All] buildings [in all cities]",],
+                "requires": ["Messengers"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Cohesion Complete",
+                "uniques": ["[+2 Happiness] [in all cities connected to capital]",
+                            "Get the leader title of [[leaderName] the Bastion]"]
             }
         ]
 },
