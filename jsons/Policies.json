@@ -310,7 +310,7 @@
                 "name": "Apprenticeships",
                 "uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Science]"],
                 "row": 1,
-                "column": 3
+                "column": 2
             },
             {
                 "name": "Colleges",
