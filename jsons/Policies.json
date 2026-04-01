@@ -130,7 +130,7 @@
         "policies": [
             {
                 "name": "Strength in Numbers",
-                "uniques": ["[+10]% Strength <for [Melee] units> <when defending>"],
+                "uniques": ["[+2 Food, +2 Production, +2 Culture, +1 Happiness] [in all cities] <for [20] turns> <upon declaring a defensive pact>"],
                 "row": 1,
                 "column": 1
             },
