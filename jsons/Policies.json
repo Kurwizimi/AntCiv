@@ -287,8 +287,63 @@
             },
             {
                 "name": "Cohesion Complete",
-                "uniques": ["[+2 Happiness] [in all cities connected to capital]",
-                            "Get the leader title of [[leaderName] the Bastion]"]
+                "uniques": ["[+1 Happiness] [in all cities connected to capital]",
+                            "[+2 Gold, +2 Happiness] from every [Trading Dome]",
+                            "Get the leader title of [[leaderName] the Coordinator]"]
+            }
+        ]
+},
+
+{
+        "name": "Construction",
+        "era": "Return of the Ants",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 6,
+            "Diplomatic": 5,
+            "Domination": 8,
+            "Scientific": 9
+        },
+        "uniques": ["[+5]% [Science] from every [Throne]"],
+        "policies": [
+            {
+                "name": "Apprenticeships",
+                "uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Science]"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Colleges",
+                "uniques": ["[+2 Science, +1 Culture] [in all cities]"], //change ot something more interesting
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Food Wages",
+                "uniques": ["[+1 Food] from every [Store Pile]",
+                            "[+2 Food] from every [Star Chart]",],
+                "requires": ["Taxis"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Field Samples",
+                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "requires": ["Colleges"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Educators",
+                "uniques": ["[+1 Science, +1 Culture] from every specialist [in all cities]"],
+                "requires": ["Colleges"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Construction Complete",
+                "uniques": ["[1] Free Technologies",
+                            "Get the leader title of [[leaderName] the Knower]"]
             }
         ]
 },
