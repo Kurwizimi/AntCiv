@@ -170,5 +170,72 @@
             }
         ]
 },
+
+{
+        "name": "Symbiosis",
+        "era": "Revenge of the Mites",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 4,
+            "Diplomatic": 6,
+            "Domination": 7,
+            "Scientific": 4
+        },
+        "uniques": ["[+10]% [Food] [in all cities] <for [5] turns> <upon founding a city>",
+                    "[+15]% [Gold] [in all cities] <for [5] turns> <upon declaring a defensive pact>"],
+        "policies": [
+            {
+                "name": "Delegations",
+                "uniques": ["Resting point for Influence with City-States is increased by [20]"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Play to Our Strengths",
+                "uniques": ["Comment [+1 Strength for Military units for every Remaining Friendly Major Civilizations (capped at +10)]",
+                        
+                        "[+1] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [1]> <hidden from users>",
+                        "[+2] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [2]> <hidden from users>",
+                        "[+3] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [3]> <hidden from users>",
+                        "[+4] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [4]> <hidden from users>",
+                        "[+5] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [5]> <hidden from users>",
+                        "[+6] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [6]> <hidden from users>",
+                        "[+7] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [7]> <hidden from users>",
+                        "[+8] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [8]> <hidden from users>",
+                        "[+9] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [9]> <hidden from users>",
+                        "[+10] Strength <for [Military] units> <when number of [Remaining [{Friendly} {Major}] Civilizations] is equal to [10]> <hidden from users>"], //Above 10 need do
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Insider Knowledge",
+                "uniques": ["[-20]% enemy spy effectiveness [in all cities]",
+                            "Gain an extra spy"],
+                "requires": ["Delegations", "Play to Our Strengths"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Multispecies-ism",
+                "uniques": ["Science gained from research agreements [+50]%"],
+                "requires": ["Play to Our Strengths"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Embassies",
+                "uniques": ["Allied City-States provide [Culture] equal to [30]% of what they produce for themselves"],
+                "requires": ["Insider Knowledge"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Defence Complete",
+                "uniques": ["Gifts of Gold to City-States generate [10]% more Influence",
+                            "[-15]% City-State Influence degradation",
+                            "Get the leader title of [[leaderName] the Open]"]
+            }
+        ]
+},
   
 ]
