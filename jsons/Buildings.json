@@ -30,16 +30,16 @@
 	},
 	{
 		"name": "Workers Chamber",
-		"production": 2,
+		"production": 1,
 		"cost": 20,
-		"uniques": [],
+		"uniques": ["Comment [Allows for the construction of Civilian units]"],
 		"requiredTech": "Burrowing"
 	},
 	{
 		"name": "Soldiers Chamber",
 		"production": 1,
 		"cost": 20,
-		"uniques": ["[+10]% Production when constructing [Military] units [in this city]"],
+		"uniques": ["Comment [Allows the construction of Military units]"],
 		"requiredTech": "Nest Defence"
 	},
 	{
@@ -64,7 +64,7 @@
 		"requiredTech": "Species Protection"
 	},
 	{
-		"name": "Boulevard",
+		"name": "Clay Pits",
 		"happiness": 1,
 		"production": 2,
 		"maintenance": 1,
@@ -80,6 +80,13 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [Hill]"],
+		"requiredTech": "Tunnels"
+	},
+	{
+		"name": "Hidden Council",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Tunnels"
 	},
 
@@ -118,6 +125,34 @@
 		"requiredTech": "Doors"
 	},
 	{
+		"name": "Royal Daycare",
+		"culture": 3,
+		// "specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Throne",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Doors"
+	},
+
+	
+	{
+		"name": "Toolmaker",
+		"maintenance": 2,
+		"production": 2,
+		// "specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Wooden Tools"
+	},
+	{
+		"name": "Patrol Route",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bridges"
+	},
+	{
 		"name": "Priest Complex",
 		"faith": 2,
 		"requiredBuilding": "Shrine to the Queen",
@@ -126,6 +161,64 @@
 		"requiredTech": "Societal Order",
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
+	{
+		"name": "Nursery",
+		"happiness": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Private Chambers",
+		"requiredTech": "Nurseries"
+	},
+	{
+		"name": "Egg Hatchery",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Nurseries"
+	},
+
+	//New
+	{
+		"name": "Royal Chamber",
+		"culture": 4,
+		// "specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Royal Daycare",
+		"maintenance": 2,
+		"requiredTech": "Sleeping Quarters",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Orator Podium",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Branches] tiles [in this city]"],
+		"requiredTech": "Basic Excavation"
+	},
+
+	{
+		"name": "Training Grounds",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Patrol Route",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Mercenaries"
+	},
+	//Tool storage - production
+	{
+		"name": "Ditch",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Ant Defence",
+		"requiredTech": "Trenches",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+
+	
 
 
 ]
