@@ -105,7 +105,7 @@
 					"[+1 Production] <after discovering [Mining]>",
 					"Will not be replaced by automated units",
             		"Removes removable features when built",
-				ˋ	"Pillaging this improvement yields approximately [+20 Gold]"]
+					"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Trading Dome",
