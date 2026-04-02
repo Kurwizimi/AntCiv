@@ -347,5 +347,90 @@
             }
         ]
 },
+
+        //IDEOLOGY
+{
+        "name": "Gardeners",
+        "era": "Rise of the Swarms",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 6,
+            "Diplomatic": 5,
+            "Domination": 8,
+            "Scientific": 9
+        },
+        "uniques": ["[+2 Food] [in all cities]"],
+        "policies": [
+            {
+                "name": "Fruits of Nature",
+                "uniques": ["[+1 Food] from every [Recollector]",
+                            "[+1 Culture] from every [Hunting Ground]"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Beasts of Burden",
+                "uniques": [""], //NEED DO
+                "requires": ["Fruits of Nature"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Food for All",
+                "uniques": ["[+1 Food] from every [Store Pile]",
+                            "[+2 Food] from every [Star Chart]",],
+                "requires": ["Fruits of Nature"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Adaptive Farming",
+                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "requires": ["Beasts of Burden"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Open Stockpiles",
+                "uniques": ["[+1 Science, +1 Culture] from every specialist [in all cities]"],
+                "requires": ["Food for All"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Crop Rotation",
+                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "requires": ["Adaptive Farming", "Open Stockpiles"],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Communal Burial",
+                "uniques": [""],
+                "requires": ["Crop Rotation"],
+                "row": 5,
+                "column": 2
+            },
+            {
+                "name": "Biofuel",
+                "uniques": [""],
+                "requires": ["Crop Rotation"],
+                "row": 5,
+                "column": 4
+            },
+            {
+                "name": "Agrarianism",
+                "uniques": [""],
+                "requires": ["Communal Burial", "Biofuel"],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "Construction Complete",
+                "uniques": ["[1] Free Technologies",
+                            "Get the leader title of [[leaderName] the Knower]"]
+            }
+        ]
+},
   
 ]
