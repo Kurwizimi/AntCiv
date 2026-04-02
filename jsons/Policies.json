@@ -351,7 +351,7 @@
         //IDEOLOGY
 {
         "name": "Gardeners",
-        "era": "Rise of the Swarms",
+        "era": "Rise of the Swarm",
         "priorities": {
             "Neutral": 5,
             "Cultural": 6,
@@ -426,9 +426,8 @@
                 "column": 3
             },
             {
-                "name": "Construction Complete",
-                "uniques": ["[1] Free Technologies",
-                            "Get the leader title of [[leaderName] the Knower]"]
+                "name": "Garderners Complete",
+                "uniques": ["Get the leader title of [Dux Agricola [leaderName]]"]
             }
         ]
 },
