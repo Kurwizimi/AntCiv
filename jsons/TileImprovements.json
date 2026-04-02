@@ -2,7 +2,7 @@
 		{
 		"name": "Recollectors",
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Leaf"],
-		"production": 1,
+		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Food] <after discovering [Fences]>", "Pillaging this improvement yields approximately [+25 Gold]"],
 		"shortcutKey": "R"
