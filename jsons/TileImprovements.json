@@ -4,7 +4,8 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Leaf"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food] <after discovering [Fences]>", "Pillaging this improvement yields approximately [+25 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Fences]>", 
+					"Pillaging this improvement yields approximately [+25 Gold]"],
 		"shortcutKey": "R"
 	},
 	{
@@ -14,7 +15,8 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Species Protection",
-		"uniques": ["[+1 Production] <after discovering [Fences]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Fences]>", 
+					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
@@ -23,7 +25,8 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Burrowing",
-		"uniques": ["[+1 Production] <after discovering [Mining]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Mining]>",
+					"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
 	},
 	{
@@ -32,7 +35,9 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Slavery",
-		"uniques": ["[+1 Gold] <after discovering [Supply Chains]>", "[+1 Gold] <after discovering [Currency]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Supply Chains]>",
+					"[+1 Gold] <after discovering [Currency]>", 
+					"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "S"
 	},
 	{
@@ -41,7 +46,9 @@
 		"culture": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Diplomats",
-		"uniques": ["[+1 Culture, +1 Faith] <after discovering [Landmarking]>", "Can only be built on [Open terrain] tiles", "Costs [1] [Gold] per turn when in your territory",
+		"uniques": ["[+1 Culture, +1 Faith] <after discovering [Landmarking]>",
+					"Can only be built on [Open terrain] tiles",
+					"Costs [1] [Gold] per turn when in your territory",
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
@@ -51,7 +58,9 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Bartering",
-		"uniques": ["[+1 Food] <after discovering [Harvest]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Food] <after discovering [Harvest]>",
+					"Can only be built to improve a resource",
+					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "H"
 	},
 	{
@@ -60,7 +69,9 @@
 		"terrainsCanBeBuiltOn": ["Branches"],
 		"food": 1,
 		"techRequired": "Climbing",
-		"uniques": ["[+1 Gold] <after discovering [Ladders]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Ladders]>",
+					"Can only be built to improve a resource",
+					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "F"
 	},
 
@@ -69,38 +80,55 @@
 		"name": "Star Chart",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 6,
-		"uniques": ["Great Improvement", "[+3 Science] <after discovering [Star Charts]>",
-            "[+3 Science] <after discovering [Cartography]>", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement",
+					"[+3 Science] <after discovering [Star Charts]>",
+            		"[+3 Science] <after discovering [Cartography]>", 
+					"Removes removable features when built",
+           			"Will not be replaced by automated units", 
+					"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Council House",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 4,
-		"uniques": ["[+3 Culture] <for every [Completed Policy branches]>", "Great Improvement", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement",
+					"[+3 Culture] <for every [Completed Policy branches]>",
+					"Removes removable features when built",
+            		"Will not be replaced by automated units",
+					"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Borehole",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Mining]>", "Will not be replaced by automated units",
-            "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement",
+					"[+1 Production] <after discovering [Mining]>",
+					"Will not be replaced by automated units",
+            		"Removes removable features when built",
+				ˋ	"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Trading Dome",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Slavery]>","[+1 Gold] <after discovering [Organised Trade]>",
-			"[+1 Gold] <after discovering [Currency]>", "Removes removable features when built",
-            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", 
+				"[+1 Gold] <after discovering [Slavery]>",
+				"[+1 Gold] <after discovering [Organised Trade]>",
+				"[+1 Gold] <after discovering [Currency]>", 
+				"Removes removable features when built",
+           		"Will not be replaced by automated units", 
+				"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Petty Throne",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 4,
 		"gold": 1,
-		"uniques": ["Great Improvement", "[+1 Gold] for each adjacent [Royal Plaza]","Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement",
+					"[+1 Gold] for each adjacent [Royal Plaza]",
+					"Removes removable features when built",
+					"Will not be replaced by automated units",
+					"Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 
 	//Temporary
@@ -109,7 +137,8 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf"],
 		"turnsToBuild": 3,
 		"techRequired": "Trenches",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]%"],
+		"uniques": ["Can be built outside your borders",
+					"Gives a defensive bonus of [50]%"],
 		"shortcutKey": "T"
 	},
 	{
@@ -117,7 +146,8 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf"],
 		"turnsToBuild": 3,
 		"techRequired": "Stockpiles",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Comment [+10 HP when healing on this tile]", 
+					"Can be built outside your borders"],
 		"shortcutKey": "T"
 	},
 	{
@@ -125,7 +155,8 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf"],
 		"turnsToBuild": 3,
 		"techRequired": "Trenches",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Comment [-10% Strength and -1 Movement when entering this tile]",
+					"Can be built outside your borders"],
 		"shortcutKey": "S"
 	},
 	{
@@ -133,7 +164,8 @@
 		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Rock","Grass","Stick","Leaf"],
 		"turnsToBuild": 3,
 		"techRequired": "Wooden Tools",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Comment [+1 Sight for units on this tile]",
+					"Can be built outside your borders"],
 		"shortcutKey": "W"
 	},
 
