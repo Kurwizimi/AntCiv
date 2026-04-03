@@ -226,7 +226,7 @@
 	{
 		"name": "Food Bank",
 		"food": 5,
-		"requiredBuilding": "Egg HAtchery",
+		"requiredBuilding": "Egg Hatchery",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Fences"
