@@ -3,10 +3,10 @@
 		"name": "Young Queen",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 50,
+		"cost": 100,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population", 
-			"Only available <in cities with a [Queen Chamber]>"]
+			"Only available <in cities with a [Queen's Chamber]>"]
 	},
 	{
 		"name": "Worker",
@@ -14,14 +14,14 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Automation is a primary action", 
 			"Only available <in cities with a [Workers Chamber]>"],
-		"cost": 20
+		"cost": 70
 	},
 	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 1,
-		"cost": 15,
+		"cost": 25,
 		"promotions": ["Ignore terrain cost"],
 		"uniques" : ["Never appears as a Barbarian unit"],
 		//"attackSound": "nonmetalhit"
@@ -31,7 +31,7 @@
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 5,
-		"cost": 25,
+		"cost": 40,
 		"requiredTech": "Nest Defence",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]>", "Never appears as a Barbarian unit"],
 		//"attackSound": "nonmetalhit",
@@ -50,7 +50,7 @@
 		"name": "Sprayer",
 		"unitType": "Ranged",
 		"movement": 2,
-		"strength": 3,
+		"strength": 2,
 		"rangedStrength": 5,
 		"uniques" : [""],
 		"requiredTech": "Pheromones",
@@ -74,7 +74,7 @@
 		"unitType": "Melee",
 		"uniqueTo": "Barbarians",
 		"replaces": "Soldier",
-		"movement": 1,
+		"movement": 2,
 		"strength": 5,
 		"cost": 100,
 		"uniques" : [""],
@@ -86,7 +86,7 @@
 		"name": "Fortifier",
 		"unitType": "Civilian",
 		"uniques": ["[+1]% Strength bonus for [Military] units within [2] tiles",
-          		    "Can instantly construct a [imperial Fort] improvement <by consuming this unit>",
+          		    "Can instantly construct a [Imperial Fort] improvement <by consuming this unit>",
 					"Unbuildable"],
 		"movement": 2
 	},
