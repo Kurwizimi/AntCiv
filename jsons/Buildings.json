@@ -200,7 +200,16 @@
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Mercenaries"
 	},
-	//Tool storage - production
+	{
+		"name": "Tool Storage",
+		"production": 2,
+		//"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredBuilding": "Toolmaker",
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Slavery"
+	},
 	{
 		"name": "Ditch",
 		"cityStrength": 7,
