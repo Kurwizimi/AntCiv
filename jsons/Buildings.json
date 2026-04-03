@@ -120,7 +120,7 @@
 	{
 		"name": "Royal Daycare",
 		"culture": 3,
-		// "specialistSlots": {"Artist": 1},
+		//"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Throne",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -133,7 +133,7 @@
 		"name": "Toolmaker",
 		"maintenance": 2,
 		"production": 2,
-		// "specialistSlots": {"Engineer": 1},
+		//"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Wooden Tools"
@@ -174,7 +174,7 @@
 	{
 		"name": "Royal Chamber",
 		"culture": 4,
-		/* "specialistSlots": {"Artist": 1},/*
+		//"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Royal Daycare",
 		"maintenance": 2,
@@ -186,7 +186,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
-		// "specialistSlots": {"Scientist": 2},
+		//"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Hidden Council",
 		"uniques": ["[+2 Science] from [Branches] tiles [in this city]"],
 		"requiredTech": "Basic Excavation"
