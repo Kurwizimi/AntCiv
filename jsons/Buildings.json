@@ -268,7 +268,15 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	
-	
+
+
+	//Policy
+	{
+        "name": "Sample Field",
+        "food": 2,
+		"percentStatBonus": {"science": 5},
+        "uniques": ["Unsellable", "Unbuildable"]
+    },
 
 
 ]
