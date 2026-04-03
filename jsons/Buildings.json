@@ -174,7 +174,7 @@
 	{
 		"name": "Royal Chamber",
 		"culture": 4,
-		// "specialistSlots": {"Artist": 1},
+		/* "specialistSlots": {"Artist": 1},/*
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Royal Daycare",
 		"maintenance": 2,
