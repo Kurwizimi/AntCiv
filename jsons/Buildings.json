@@ -103,13 +103,6 @@
 		"requiredTech": "Climbing"
 	},
 	{
-		"name": "School",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Researchers"
-	},
-	{
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
@@ -193,8 +186,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
-		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "Library",
+		// "specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Hidden Council",
 		"uniques": ["[+2 Science] from [Branches] tiles [in this city]"],
 		"requiredTech": "Basic Excavation"
 	},
