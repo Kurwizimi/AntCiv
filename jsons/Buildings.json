@@ -82,6 +82,8 @@
 		"uniques": ["Must be on [Hill]"],
 		"requiredTech": "Tunnels"
 	},
+
+	//Attack
 	{
 		"name": "Hidden Council",
 		"hurryCostModifier": 25,
@@ -91,7 +93,7 @@
 	},
 
 
-	//re
+	//revenge
 
 	{
 		"name": "Lookout",
@@ -220,6 +222,52 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 
+	//Hive
+	{
+		"name": "Food Bank",
+		"food": 5,
+		"requiredBuilding": "Egg HAtchery",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Fences"
+	},
+	{
+		"name": "Star-Watching Raft",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Hidden Council",
+		"uniques": ["Must be next to [Puddle]"],
+		"requiredTech": "Engineer Corps."
+	},
+	{
+		"name": "Royal Mound",
+		"culture": 5,
+		//"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "Royal Chamber",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Engineer Corps.",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Park",
+		"happiness": 3,
+		"requiredBuilding": "Nursery",
+		"maintenance": 2,
+		"requiredTech": "Landmarking"
+	},
+
+	{
+		"name": "Palisade",
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Ditch",
+		"requiredTech": "Walls",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
 	
 
 
