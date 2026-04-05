@@ -105,7 +105,7 @@
 		"requiredTech": "Climbing"
 	},
 	{
-		"name": "Courthouse",
+		"name": "Court of Alates",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
 		"uniques": ["Removes extra unhappiness from annexed cities",
