@@ -1,20 +1,24 @@
 [
+	//START 0
 	{
 		"name": "Young Queen",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population", 
-			"Only available <in cities with a [Queen's Chamber]>"]
+		"uniques": ["Founds a new city <by consuming this unit>",
+					"Excess Food converted to Production when under construction",
+					"Requires at least [2] population", 
+					"Only available <in cities with a [Queen's Chamber]>"]
 	},
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Automation is a primary action", 
-			"Only available <in cities with a [Workers Chamber]>"],
-		"cost": 70
+		"cost": 70,
+		"uniques": ["Can build [Land] improvements on tiles",
+					"Can build [Water] improvements on tiles",
+					"Automation is a primary action", 
+					"Only available <in cities with a [Workers Chamber]>"],
 	},
 	{
 		"name": "Scout",
@@ -24,8 +28,10 @@
 		"cost": 25,
 		"promotions": ["Ignore terrain cost"],
 		"uniques" : ["Never appears as a Barbarian unit"],
-		//"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit"
 	},
+
+	//ERA ONE
 	{
 		"name": "Soldier",
 		"unitType": "Melee",
@@ -33,8 +39,11 @@
 		"strength": 5,
 		"cost": 40,
 		"requiredTech": "Nest Defence",
-		"uniques" : ["Only available <in cities with a [Soldiers Chamber]>", "Never appears as a Barbarian unit"],
-		//"attackSound": "nonmetalhit",
+		"obsoleteTech": "Societal Order",
+		"upgradesTo": "Pincer",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
 	}, 
 	{
 		"name": "Guardian",
@@ -43,19 +52,61 @@
 		"strength": 4,
 		"cost": 40,
 		"requiredTech": "Species Protection",
-		"uniques" : ["[+50]% Strength <in [Friendly] tiles>", "Never appears as a Barbarian unit"],
-		//"attackSound": "nonmetalhit",
-	}, 
+		"obsoleteTech": "Basic Excavation",
+		"upgradesTo": "Door Head",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"[+50]% Strength <in [Friendly] tiles>",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	},
+
+	//ERA TWO
+	{
+		"name": "Climber Horde",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 5,
+		"cost": 75,
+		"requiredTech": "Tunnels",
+		"obsoleteTech": "Warrior Class",
+		"upgradesTo": "Twig Ram",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+					"No defensive terrain bonus",
+					"[-33]% Strength <when defending>",
+					"[-1] Sight",
+					"Can only attack [City] units"],
+		"attackSound": "throw"
+	},
 	{
 		"name": "Sprayer",
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 2,
 		"rangedStrength": 5,
-		"uniques" : [""],
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
 		"requiredTech": "Pheromones",
 		"cost": 30,
 	},
+	{
+		"name": "Wrangler",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Climbing",
+		"uniques": ["Cannot enter ocean tiles",
+					"Never appears as a Barbarian unit"],
+		"upgradesTo": "Grappler",
+		"obsoleteTech": "Bridges",
+		"attackSound": "nonmetalhit"
+	},
+
+
+
+
+
+
+
 
 //Barbarian
 	{
