@@ -355,9 +355,9 @@
         "priorities": {
             "Neutral": 5,
             "Cultural": 6,
-            "Diplomatic": 5,
-            "Domination": 8,
-            "Scientific": 9
+            "Diplomatic": 7,
+            "Domination": 4,
+            "Scientific": 7
         },
         "uniques": ["[+2 Food] [in all cities]"],
         "policies": [
@@ -370,7 +370,9 @@
             },
             {
                 "name": "Beasts of Burden",
-                "uniques": [""], //NEED DO
+                "uniques": ["[Mou ted] units gain the [Beasts of Burden] promotion",
+                        "All newly-trained [Mounted] units [in all cities] receive the [Beasts of Burden] promotion",
+                        "[+1] Movement <for [Mounted] units>"], //NEED DO
                 "requires": ["Fruits of Nature"],
                 "row": 2,
                 "column": 1
@@ -399,21 +401,22 @@
             },
             {
                 "name": "Crop Rotation",
-                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "uniques": ["[+35]% Food is carried over after population increases [in all cities]"],
                 "requires": ["Adaptive Farming", "Open Stockpiles"],
                 "row": 4,
                 "column": 3
             },
             {
                 "name": "Communal Burial",
-                "uniques": [""],
+                "uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
                 "requires": ["Crop Rotation"],
                 "row": 5,
                 "column": 2
             },
             {
                 "name": "Biofuel",
-                "uniques": [""],
+                "uniques": ["[+1 Production] from all [Food] buildings",
+                       "[+2 Food] from every [Engineer]"],
                 "requires": ["Crop Rotation"],
                 "row": 5,
                 "column": 4
@@ -426,7 +429,7 @@
                 "column": 3
             },
             {
-                "name": "away away ",
+                "name": "Gardeners Complete",
                 "uniques": ["Get the leader title of [Dux Agricola [leaderName]]"]
             }
         ]
