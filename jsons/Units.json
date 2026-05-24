@@ -85,8 +85,22 @@
 		"rangedStrength": 5,
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
 		"requiredTech": "Pheromones",
+		"obsoleteTech": "Expeditionary Force",
 		"cost": 30,
 	},
+	{
+		"name": "Pincer",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"requiredTech": "Doors",
+		"obsoleteTech": "Warrior Class",
+		//"upgradesTo": "Slasher",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	}, 
 	{
 		"name": "Wrangler",
 		"unitType": "Melee Water",
@@ -100,6 +114,52 @@
 		"obsoleteTech": "Bridges",
 		"attackSound": "nonmetalhit"
 	},
+
+	//ERA THREE
+	{
+		"name": "Grappler",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 15,
+		"cost": 45,
+		"requiredTech": "Bridges",
+		"uniques": ["Cannot enter ocean tiles",
+					"Never appears as a Barbarian unit"], //Can enter Ocean, BUT takes damage OR less movement
+		//"upgradesTo": "Grappler",
+		//"obsoleteTech": "Bridges",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Twig Ram",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Warrior Class",
+		"obsoleteTech": "Engineer Corps.",
+		"upgradesTo": "Sapper",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+					"No defensive terrain bonus",
+					"[-33]% Strength <when defending>",
+					"[-1] Sight",
+					"Can only attack [City] units"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Door Head",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 9,
+		"cost": 40,
+		"requiredTech": "Basic Excavation",
+		//"obsoleteTech": "Walls", or mining
+		"upgradesTo": "Patrol Group",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"[+50]% Strength <in [Friendly] tiles>",
+					"Never appears as a Barbarian unit"], //bonus for being next ot a city centre
+		"attackSound": "nonmetalhit",
+	},
+
 
 
 
