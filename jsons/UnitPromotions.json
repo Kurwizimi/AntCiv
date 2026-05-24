@@ -15,6 +15,10 @@
 		"name": "Escort Group",
 		"uniques": ["Transfer Movement to [Civilian]"]
 	},
+	{
+		"name": "Beasts of Burden",
+		"uniques": ["Can build [all] improvements on tiles"]
+	},
 	
 	//Tile Improvements
 	{
