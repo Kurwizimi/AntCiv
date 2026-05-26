@@ -137,7 +137,7 @@
 		"cost": 75,
 		"requiredTech": "Warrior Class",
 		"obsoleteTech": "Engineer Corps.",
-		"upgradesTo": "Sapper",
+		//"upgradesTo": "Sapper",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
 					"No defensive terrain bonus",
 					"[-33]% Strength <when defending>",
