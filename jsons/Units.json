@@ -153,7 +153,7 @@
 		"cost": 40,
 		"requiredTech": "Basic Excavation",
 		//"obsoleteTech": "Walls", or mining
-		"upgradesTo": "Patrol Group",
+		//"upgradesTo": "Patrol Group",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
 					"[+50]% Strength <in [Friendly] tiles>",
 					"Never appears as a Barbarian unit"], //bonus for being next ot a city centre
