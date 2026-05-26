@@ -34,7 +34,7 @@
 	//ERA ONE
 	{
 		"name": "Soldier",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 5,
 		"cost": 40,
@@ -47,7 +47,7 @@
 	}, 
 	{
 		"name": "Guardian",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 4,
 		"cost": 40,
@@ -79,7 +79,7 @@
 	},
 	{
 		"name": "Sprayer",
-		"unitType": "Ranged",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 2,
 		"rangedStrength": 5,
@@ -90,7 +90,7 @@
 	},
 	{
 		"name": "Pincer",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
@@ -147,7 +147,7 @@
 	},
 	{
 		"name": "Door Head",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 9,
 		"cost": 40,
@@ -171,7 +171,7 @@
 //Barbarian
 	{
 		"name": "Mantis",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"replaces": "Guardian",
 		"movement": 1,
@@ -182,7 +182,7 @@
 	}, 
 	{
 		"name": "Spider",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"replaces": "Soldier",
 		"movement": 2,
@@ -205,7 +205,7 @@
 //test
 	{
 		"name": "Human",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"movement": 10,
 		"strength": 1000,
 		"cost": 1000,
