@@ -26,6 +26,8 @@
 		"movement": 2,
 		"strength": 1,
 		"cost": 25,
+		"obsoleteTech": "Mercenaries",
+		"upgradesTo": "Pathfinder",
 		"promotions": ["Ignore terrain cost"],
 		"uniques" : ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
@@ -62,6 +64,20 @@
 
 	//ERA TWO
 	{
+		"name": "Big Bug",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Stokpiles",
+		//"requiredResource": "Horses",
+		"upgradesTo": "Slaver",
+		"obsoleteTech": "Mercenaries",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
 		"name": "Climber Horde",
 		"unitType": "Sword",
 		"movement": 2,
@@ -81,11 +97,13 @@
 		"name": "Sprayer",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 2,
-		"rangedStrength": 5,
-		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
+		"strength": 5,
+		"rangedStrength": 10,
 		"requiredTech": "Pheromones",
 		"obsoleteTech": "Expeditionary Forces",
+		"upgradesTo": "Squirter",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
+		
 		"cost": 30,
 	},
 	{
@@ -96,7 +114,7 @@
 		"cost": 40,
 		"requiredTech": "Doors",
 		"obsoleteTech": "Warrior Class",
-		//"upgradesTo": "Slasher",
+		"upgradesTo": "Slasher",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
@@ -126,9 +144,22 @@
 		"uniques": ["Cannot enter ocean tiles",
 					"Never appears as a Barbarian unit"], //Can enter Ocean, BUT takes damage OR less movement
 		//"upgradesTo": "Grappler",
-		//"obsoleteTech": "Bridges",
+		"obsoleteTech": "Bridges",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Slasher",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 20,
+		"cost": 40,
+		"requiredTech": "Warrior Class",
+		"obsoleteTech": "Mining",
+		//"upgradesTo": "Cutter",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit",
+	}, 
 	{
 		"name": "Twig Ram",
 		"unitType": "Sword",
@@ -137,7 +168,7 @@
 		"cost": 75,
 		"requiredTech": "Warrior Class",
 		"obsoleteTech": "Engineer Corps.",
-		//"upgradesTo": "Sapper",
+		"upgradesTo": "Sapper",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
 					"No defensive terrain bonus",
 					"[-33]% Strength <when defending>",
@@ -152,11 +183,107 @@
 		"strength": 9,
 		"cost": 40,
 		"requiredTech": "Basic Excavation",
-		//"obsoleteTech": "Walls", or mining
+		"obsoleteTech": "Mining",
 		//"upgradesTo": "Patrol Group",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
 					"[+50]% Strength <in [Friendly] tiles>",
 					"Never appears as a Barbarian unit"], //bonus for being next ot a city centre
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Pathfinder",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 10,
+		"cost": 25,
+		"requiredTech": "Mercenaries",
+		"obsoleteTech": "Husbandry",
+		"upgradesTo": "Explorer",
+		"promotions": ["Ignore terrain cost"],
+		"uniques" : ["Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Slaver",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Mercenaries",
+		"obsoleteTech": "Husbandry",
+		"upgradesTo": "Hunter",
+		//"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+
+
+	//ERA FOUR
+	{
+		"name": "Sapper",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Engineer Corps.",
+		"obsoleteTech": "Forts", //or land claims
+		//"upgradesTo": "Sapper",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+					"No defensive terrain bonus",
+					"[-33]% Strength <when defending>",
+					"[-1] Sight",
+					"Can only attack [City] units"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Squirter",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 15,
+		"requiredTech": "Expeditionary Forces",
+		"obsoleteTech": "Organised Trade",
+		//"upgradesTo": "Bombadier",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
+		"cost": 30,
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 15,
+		"cost": 25,
+		"requiredTech": "Husbandry",
+		"obsoleteTech": "Our Purpose",
+		"promotions": ["Ignore terrain cost"],
+		"uniques" : ["[+1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Hunter",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Husbandry",
+		//"obsoleteTech": "Frontier Control",
+		//"requiredResource": "Horses",
+		//"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Patrol Group",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 40,
+		"requiredTech": "Mining",
+		"obsoleteTech": "Land Claims",
+		//"upgradesTo": "Royal Guard",
+		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
+					"[+50]% Strength <in [Friendly] tiles>",
+					"Never appears as a Barbarian unit"], //movement near other borders OR extra sight
 		"attackSound": "nonmetalhit",
 	},
 
