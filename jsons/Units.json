@@ -85,7 +85,7 @@
 		"rangedStrength": 5,
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
 		"requiredTech": "Pheromones",
-		"obsoleteTech": "Expeditionary Force",
+		"obsoleteTech": "Expeditionary Forces",
 		"cost": 30,
 	},
 	{
