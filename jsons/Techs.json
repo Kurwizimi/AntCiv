@@ -126,7 +126,7 @@
 				"name": "Doors",
 				"row": 8,
 				"quote": "",
-				"prerequisites": ["Tunnels"],
+				"prerequisites": ["Species Protection", "Tunnels"],
 				"uniques": [],
 			}]
 	},
