@@ -69,7 +69,7 @@
 		"movement": 4,
 		"strength": 12,
 		"cost": 75,
-		"requiredTech": "Stokpiles",
+		"requiredTech": "Stockpiles",
 		//"requiredResource": "Horses",
 		"upgradesTo": "Slaver",
 		"obsoleteTech": "Mercenaries",
