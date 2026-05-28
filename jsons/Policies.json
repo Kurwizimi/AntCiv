@@ -551,14 +551,14 @@
                 "name": "Show No Mercy",
                 "uniques": ["[+1 Food] from every [Store Pile]",
                             "[+2 Food] from every [Star Chart]",],
-                "requires": ["Rulers For Life"],
+                "requires": ["Rulers for Life"],
                 "row": 2,
                 "column": 5
             },
             {
                 "name": "Research and Development",
                 "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
-                "requires": ["Supreiority"],
+                "requires": ["Superiority"],
                 "row": 3,
                 "column": 2
             },
@@ -584,7 +584,7 @@
                 "column": 2
             },
             {
-                "name": "Complete devotion",
+                "name": "Complete Devotion",
                 "uniques": ["[+1 Production] from all [Food] buildings",
                        "[+2 Food] from every [Engineer]"],
                 "requires": ["Total War"],
@@ -594,7 +594,7 @@
             {
                 "name": "Expansionism",
                 "uniques": [""],
-                "requires": ["Communal Burial", "Biofuel"],
+                "requires": ["Meritocracy", "Complete Devotion"],
                 "row": 6,
                 "column": 3
             },
