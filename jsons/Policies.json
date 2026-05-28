@@ -370,7 +370,7 @@
             },
             {
                 "name": "Beasts of Burden",
-                "uniques": ["[Mou ted] units gain the [Beasts of Burden] promotion",
+                "uniques": ["[Mounted] units gain the [Beasts of Burden] promotion",
                         "All newly-trained [Mounted] units [in all cities] receive the [Beasts of Burden] promotion",
                         "[+1] Movement <for [Mounted] units>"], //NEED DO
                 "requires": ["Fruits of Nature"],
@@ -430,6 +430,176 @@
             },
             {
                 "name": "Gardeners Complete",
+                "uniques": ["Get the leader title of [Dux Agricola [leaderName]]"]
+            }
+        ]
+},
+        {
+        "name": "Builders",
+        "era": "The Rise of Swarms",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 4,
+            "Diplomatic": 7,
+            "Domination": 2,
+            "Scientific": 8
+        },
+        "uniques": [""],
+        "policies": [
+            {
+                "name": "Building Blocks",
+                "uniques": ["[+1 Food] from every [Recollector]",
+                            "[+1 Culture] from every [Hunting Ground]"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Advanced Roads",
+                "uniques": ["[Mounted] units gain the [Beasts of Burden] promotion",
+                        "All newly-trained [Mounted] units [in all cities] receive the [Beasts of Burden] promotion",
+                        "[+1] Movement <for [Mounted] units>"], //NEED DO
+                "requires": ["Building Blocks"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Power Generation",
+                "uniques": ["[+1 Food] from every [Store Pile]",
+                            "[+2 Food] from every [Star Chart]",],
+                "requires": ["Building Blocks"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Commutes",
+                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "requires": ["Advanced Roads"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Arches",
+                "uniques": ["[+1 Science, +1 Culture] from every specialist [in all cities]"],
+                "requires": ["Power Generation"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Postal System",
+                "uniques": ["[+35]% Food is carried over after population increases [in all cities]"],
+                "requires": ["Commutes", "Arches"],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Speedways",
+                "uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
+                "requires": ["Postal System"],
+                "row": 5,
+                "column": 2
+            },
+            {
+                "name": "National Grid",
+                "uniques": ["[+1 Production] from all [Food] buildings",
+                       "[+2 Food] from every [Engineer]"],
+                "requires": ["Postal System"],
+                "row": 5,
+                "column": 4
+            },
+            {
+                "name": "Monumnetalism",
+                "uniques": [""],
+                "requires": ["Communal Burial", "Biofuel"],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "Builders Complete",
+                "uniques": ["Get the leader title of [Dux Agricola [leaderName]]"]
+            }
+        ]
+},
+        {
+        "name": "Conquerers",
+        "era": "The Rise of Swarms",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 6,
+            "Diplomatic": 3,
+            "Domination": 9,
+            "Scientific": 7
+        },
+        "uniques": [""],
+        "policies": [
+            {
+                "name": "Rulers for Life",
+                "uniques": ["[+1 Food] from every [Recollector]",
+                            "[+1 Culture] from every [Hunting Ground]"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Superiority",
+                "uniques": ["[Mou ted] units gain the [Beasts of Burden] promotion",
+                        "All newly-trained [Mounted] units [in all cities] receive the [Beasts of Burden] promotion",
+                        "[+1] Movement <for [Mounted] units>"], //NEED DO
+                "requires": ["Rulers for Life"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Show No Mercy",
+                "uniques": ["[+1 Food] from every [Store Pile]",
+                            "[+2 Food] from every [Star Chart]",],
+                "requires": ["Rulers For Life"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Research and Development",
+                "uniques": ["Gain a free [Sample Field] [in this city] <upon founding a city>"],
+                "requires": ["Supreiority"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Barracks",
+                "uniques": ["[+1 Science, +1 Culture] from every specialist [in all cities]"],
+                "requires": ["Show No Mercy"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Total War",
+                "uniques": ["[+35]% Food is carried over after population increases [in all cities]"],
+                "requires": ["Research and Development", "Barracks"],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": ["[-50]% Unhappiness from [Specialists] [in all cities]"],
+                "requires": ["Total War"],
+                "row": 5,
+                "column": 2
+            },
+            {
+                "name": "Complete devotion",
+                "uniques": ["[+1 Production] from all [Food] buildings",
+                       "[+2 Food] from every [Engineer]"],
+                "requires": ["Total War"],
+                "row": 5,
+                "column": 4
+            },
+            {
+                "name": "Expansionism",
+                "uniques": [""],
+                "requires": ["Communal Burial", "Biofuel"],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "Conquerers Complete",
                 "uniques": ["Get the leader title of [Dux Agricola [leaderName]]"]
             }
         ]
