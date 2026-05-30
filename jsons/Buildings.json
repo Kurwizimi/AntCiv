@@ -1,4 +1,5 @@
 [
+	//ERA 0
 	{
 		"name": "Queen's Chamber",
 		"isNationalWonder": true,
@@ -28,6 +29,8 @@
 		"requiredTech": "Storage",
 		"uniques": ["Only available <when religion is enabled>"]
 	},
+
+	//ERA 1
 	{
 		"name": "Workers Chamber",
 		"production": 1,
@@ -82,8 +85,6 @@
 		"uniques": ["Must be on [Hill]"],
 		"requiredTech": "Tunnels"
 	},
-
-	//Attack
 	{
 		"name": "Hidden Council",
 		"hurryCostModifier": 25,
@@ -93,7 +94,7 @@
 	},
 
 
-	//revenge
+	//ERA 2
 
 	{
 		"name": "Lookout",
@@ -129,8 +130,6 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Doors"
 	},
-
-	
 	{
 		"name": "Toolmaker",
 		"maintenance": 2,
@@ -172,7 +171,7 @@
 		"requiredTech": "Nurseries"
 	},
 
-	//New
+	//ERA 3
 	{
 		"name": "Royal Chamber",
 		"culture": 4,
@@ -193,7 +192,6 @@
 		"uniques": ["[+2 Science] from [Branches] tiles [in this city]"],
 		"requiredTech": "Basic Excavation"
 	},
-
 	{
 		"name": "Training Grounds",
 		"hurryCostModifier": 25,
@@ -222,7 +220,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 
-	//Hive
+	//ERA 4
 	{
 		"name": "Food Bank",
 		"food": 5,
@@ -257,7 +255,15 @@
 		"maintenance": 2,
 		"requiredTech": "Landmarking"
 	},
-
+	{
+		"name": "Secret Altar",
+		"faith": 3,
+		"requiredBuilding": "Priest Complex",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Walls",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
 	{
 		"name": "Palisade",
 		"cityStrength": 12,
@@ -266,6 +272,40 @@
 		"requiredBuilding": "Ditch",
 		"requiredTech": "Walls",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+
+	//ERA 5
+	{
+		"name": "Observatory",
+		"science": 3,
+		//"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Orator Podium",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Star Charts"
+	},
+	{
+		"name": "Aphid Abattoir",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Training Ground",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Casus Belli"
+	},
+	{
+		"name": "Granary",
+		"requiredBuilding": "Food Bank",
+		"maintenance": 3,
+		"requiredTech": "Harvest",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Zoo",
+		"happiness": 3,
+		"requiredBuilding": "Park",
+		"maintenance": 2,
+		"requiredTech": "Domestication"
 	},
 	
 
@@ -280,5 +320,3 @@
 
 
 ]
-
-
