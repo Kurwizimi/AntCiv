@@ -52,7 +52,13 @@
 			"Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
-
+	{
+		"name": "Station",
+		"turnsToBuild": 8,
+		"techRequired": "Sleeping Quarters",
+		"uniques": ["[+1 Food] <after discovering [Preservation]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
 	{
 		"name": "Harvester",
 		"turnsToBuild": 6,
