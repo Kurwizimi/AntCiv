@@ -84,6 +84,40 @@
 		"improvement": "Picking Orchard",
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Branches}] tiles>"]
 	},
+	{
+		"name": "Hemipterans",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Soil"],
+		"food": 1,
+		"improvement": "Station",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [18] tiles <in [{Featureless} {Soil}] tiles>",
+					"Generated on every [22] tiles <in [{Featureless} {Soil}] tiles> <in [Rock] Regions>"]
+	},
+	{
+		"name": "Sugar",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Rock"],
+		"food": 1,
+		"improvement": "Station",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Rock] tiles> <in tiles without [Grass]> <in tiles without [Stick]>",
+					"Generated on every [10] tiles <in [Rock] tiles> <in tiles without [Grass]> <in tiles without [Stick]> <in tiles without [Fresh Water]> <in [Rock] Regions>"]
+	},
+	{
+		"name": "Aphids",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grass","Mud"], // Tundra only if lowland
+		"food": 1,
+		"improvement": "Hunting Ground",
+		"improvementStats": {"production": 1},
+		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
+					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
+					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
+					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+	},
 
 
 	//Luxury
@@ -151,5 +185,17 @@
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Rock] tiles>",
 					"Doesn't generate naturally <in [{Mud} {Grass}] tiles>"]
+	},
+	{
+		"name": "Silk",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grass","Stick"],
+		"gold": 2,
+		"improvement": "Harvester",
+		"uniques": ["Generated with weight [5] <in [Stick] Regions>",
+					"Generated with weight [30] <in [Grass] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Rock] tiles>"]
 	},
 ]
