@@ -1,6 +1,6 @@
 [
 		{
-		"columnNumber": 1,
+		"columnNumber": 0,
 		"era": "The Formic Menace",
 		"techCost": 10,
 		"buildingCost": 100,
@@ -16,9 +16,9 @@
 	},
 
 		{
-		"columnNumber": 2,
+		"columnNumber": 1,
 		"era": "The Formic Menace",
-		"techCost": 10,
+		"techCost": 35,
 		"buildingCost": 100,
 		"wonderCost": 100,
 		"techs": [
@@ -52,9 +52,9 @@
 			}]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 2,
 		"era": "Attack of the Colonies",
-		"techCost": 10,
+		"techCost": 55,
 		"buildingCost": 100,
 		"wonderCost": 100,
 		"techs": [
@@ -88,11 +88,11 @@
 			}]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 3,
 		"era": "Attack of the Colonies",
-		"techCost": 10,
+		"techCost": 105,
 		"buildingCost": 100,
-		"wonderCost": 100,
+		"wonderCost": 250,
 		"techs": [
 				{
 				"name": "Climbing",
@@ -131,11 +131,11 @@
 			}]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 4,
 		"era": "Revenge of the Mites",
-		"techCost": 10,
+		"techCost": 175,
 		"buildingCost": 100,
-		"wonderCost": 100,
+		"wonderCost": 250,
 		"techs": [
 				{
 				"name": "Wooden Tools",
@@ -167,11 +167,11 @@
 			},]
 	},
 {
-		"columnNumber": 6,
+		"columnNumber": 5,
 		"era": "Revenge of the Mites",
-		"techCost": 10,
+		"techCost": 275,
 		"buildingCost": 100,
-		"wonderCost": 100,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Ladders",
@@ -217,11 +217,11 @@
 			}]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 6,
 		"era": "A New Hymenoptera",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
 		"techs": [
 				{
 				"name": "Mercenaries",
@@ -253,11 +253,11 @@
 			}]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "A New Hymenoptera",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
 		"techs": [
 				{
 				"name": "Fences",
@@ -289,11 +289,11 @@
 			}]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 8,
 		"era": "The Hive Strikes Back",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
 		"techs": [
 				{
 				"name": "Husbandry",
@@ -325,11 +325,11 @@
 			}]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 9,
 		"era": "The Hive Strikes Back",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
 		"techs": [
 				{
 				"name": "Star Charts",
@@ -368,285 +368,285 @@
 			}]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 10,
 		"era": "Return of the Ants",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900,
 		"techs": [
 				{
 				"name": "Harvest",
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Star Charts", "Preservation"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Domestication",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Preservation", "Walls"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Land Claims",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Forts", "Alliances"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Currency",
 				"row": 7,
 				"quote": "",
 				"prerequisites": ["Alliances", "Supply Chains"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Early Weapons",
 				"row": 9,
 				"quote": "",
 				"prerequisites": ["Casus Belli"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 11,
 		"era": "Return of the Ants",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
 		"techs": [
 				{
 				"name": "Frontier Control",
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Harvest", "Domestication"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Silk Road",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Land Claims", "Currency"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Flight",
 				"row": 9,
 				"quote": "",
 				"prerequisites": ["Early Weapons"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 12,
 		"era": "The Formicidae Awakens",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 4100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Diplomacy",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Frontier Control"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Philosophy",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Silk Road"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Cartography",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Flight"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 13,
 		"era": "The Formicidae Awakens",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Our Purpose",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Diplomacy", "Philosophy", "Cartography"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 14,
 		"era": "The Last Insect",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 6400,
+		"buildingCost": 500,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Gardeners",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Our Purpose"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Builders",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Our Purpose"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Conquerers",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Our Purpose"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 15,
 		"era": "The Last Insect",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 7700,
+		"buildingCost": 750,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Farmers",
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Gardeners"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Governors",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Gardeners", "Builders"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Architects",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Builders"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Teachers",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Builders", "Conquerers"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Generals",
 				"row": 10,
 				"quote": "",
 				"prerequisites": ["Conquerers"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 16,
 		"era": "The Rise of Swarms",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 8800,
+		"buildingCost": 750,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Agriculture",
 				"row": 2,
 				"quote": "",
 				"prerequisites": ["Farmers"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Irrigation",
 				"row": 3,
 				"quote": "",
 				"prerequisites": ["Farmers", "Governors"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Communities",
 				"row": 5,
 				"quote": "",
 				"prerequisites": ["Governors", "Architects"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Neighbourhoods",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Architects"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Mechanics",
 				"row": 7,
 				"quote": "",
 				"prerequisites": ["Architects", "Teachers"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Military Training",
-				"row": 8,
+				"row": 9,
 				"quote": "",
 				"prerequisites": ["Teachers", "Generals"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Professional Army",
-				"row": 9,
+				"row": 10,
 				"quote": "",
 				"prerequisites": ["Generals"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 17,
 		"era": "The Rise of Swarms",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
 		"techs": [
 				{
 				"name": "Kindness",
 				"row": 4,
 				"quote": "",
 				"prerequisites": ["Agriculture", "Irrigation"],
-				"uniques": [""],
+				"uniques": [],
 			},
 			{
 				"name": "Pride",
 				"row": 6,
 				"quote": "",
 				"prerequisites": ["Communities", "Neighbourhoods", "Mechanics"],
-				"uniques": [""],
+				"uniques": [],
 			},
 				{
 				"name": "Honour",
 				"row": 8,
 				"quote": "",
 				"prerequisites": ["Military Training", "Professional Army"],
-				"uniques": [""],
+				"uniques": [],
 			}]
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 18,
 		"era": "The Rise of Swarms",
-		"techCost": 10,
-		"buildingCost": 100,
-		"wonderCost": 100,
+		"techCost": 1100,
+		"buildingCost": 1000,
+		"wonderCost": 1750,
 		"techs": [
 				{
 				"name": "Sentience",
@@ -655,36 +655,5 @@
 				"prerequisites": ["Kindness", "Pride", "Honour"],
 				"uniques": ["Can be continually researched"],
 			}]
-	},
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	},	
 ]
