@@ -193,7 +193,7 @@
 		"requiredTech": "Basic Excavation"
 	},
 	{
-		"name": "Training Grounds",
+		"name": "Training Ground",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Patrol Route",
