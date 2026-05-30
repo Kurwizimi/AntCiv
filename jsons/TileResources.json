@@ -107,16 +107,16 @@
 	{
 		"name": "Aphids",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Grass","Mud"], // Tundra only if lowland
+		"terrainsCanBeFoundOn": ["Grass","Mud"], // Mud only if lowland
 		"food": 1,
 		"improvement": "Hunting Ground",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
-					"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
-					"Generated on every [25] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
-					"Generated on every [25] tiles <in [{Grassland} {Forest}] tiles> <in tiles without [Hill]>",
-					"Generated on every [16] tiles <in [{Featureless} {Tundra}] tiles> <in [Hill] Regions>",
-					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [8] tiles <in [{Mud} {Grass}] tiles>",
+					"Generated on every [12] tiles <in [{Featureless} {Mud}] tiles>",
+					"Generated on every [25] tiles <in [{Sand} {Grass}] tiles> <in tiles without [Rock]>",
+					"Generated on every [25] tiles <in [{Soil} {Grass}] tiles> <in tiles without [Rock]>",
+					"Generated on every [16] tiles <in [{Featureless} {Mud}] tiles> <in [Rock] Regions>",
+					"Generated on every [28] tiles <in [Grass] tiles> <in [Rock] Regions>"]
 	},
 
 
