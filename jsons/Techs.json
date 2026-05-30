@@ -17,7 +17,7 @@
 
 		{
 		"columnNumber": 1,
-		"era": "The Formic Menace",
+		"era": "Attack of the Colonies",
 		"techCost": 35,
 		"buildingCost": 100,
 		"wonderCost": 100,
@@ -89,7 +89,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Attack of the Colonies",
+		"era": "Revenge of the Mites",
 		"techCost": 105,
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -168,7 +168,7 @@
 	},
 {
 		"columnNumber": 5,
-		"era": "Revenge of the Mites",
+		"era": "A New Hymenoptera",
 		"techCost": 275,
 		"buildingCost": 100,
 		"wonderCost": 300,
@@ -254,7 +254,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "A New Hymenoptera",
+		"era": "The Hive Strikes Back",
 		"techCost": 780,
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -326,7 +326,7 @@
 	},
 	{
 		"columnNumber": 9,
-		"era": "The Hive Strikes Back",
+		"era": "Return of the Ants",
 		"techCost": 1600,
 		"buildingCost": 300,
 		"wonderCost": 750,
@@ -412,7 +412,7 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Return of the Ants",
+		"era": "The Formicidae Awakens",
 		"techCost": 3100,
 		"buildingCost": 500,
 		"wonderCost": 1060,
@@ -470,7 +470,7 @@
 	},
 	{
 		"columnNumber": 13,
-		"era": "The Formicidae Awakens",
+		"era": "The Last Insect",
 		"techCost": 5100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -514,7 +514,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "The Last Insect",
+		"era": "The Rise of Swarms",
 		"techCost": 7700,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -643,7 +643,7 @@
 	},
 	{
 		"columnNumber": 18,
-		"era": "The Rise of Swarms",
+		"era": "Antor",
 		"techCost": 1100,
 		"buildingCost": 1000,
 		"wonderCost": 1750,
