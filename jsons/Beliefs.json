@@ -7,7 +7,7 @@
   {
         "name": "Eternal March",
         "type": "Pantheon",
-        "uniques": ["[+1] Movement <for [All] units> <when below [40] HP>"]
+        "uniques": ["[+1] Movement <for [All] units> <in this city>"]
     },
    {
         "name": "Sun-Chasers",
@@ -22,7 +22,7 @@
    {
         "name": "Fungus Worship",
         "type": "Pantheon",
-        "uniques": ["[+5] HP when healing <for [All] units>"]
+        "uniques": ["[+5] HP when healing <for [All] units> <in this city>"]
     },
    {
         "name": "Cult of the Exterminator",
