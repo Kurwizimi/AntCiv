@@ -33,5 +33,14 @@
         "name": "Watchtower",
         "uniques": ["[+1] Sight"]
     },
+	//Beliefs
+	{
+        "name": "Eternal March",
+        "uniques": ["[+1] Movement <when below [40] HP>"]
+    },
+	{
+        "name": "Fungus Worship",
+        "uniques": ["[+5] HP when healing"]
+    },
 
 ]
