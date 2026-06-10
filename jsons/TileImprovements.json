@@ -54,14 +54,14 @@
 	},
 	{
 		"name": "Station",
-		"turnsToBuild": 8,
+		"turnsToBuild": 7,
 		"techRequired": "Sleeping Quarters",
 		"uniques": ["[+1 Food] <after discovering [Preservation]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Harvester",
-		"turnsToBuild": 6,
+		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Bartering",
 		"uniques": ["[+1 Food] <after discovering [Harvest]>",
@@ -217,6 +217,46 @@
 			"Removes removable features when built",
             "Will not be replaced by automated units"
 		]
+	},
+	{
+		"name": "Public Field",
+		"terrainsCanBeBuiltOn": ["Soil","Sand","Concrete","Mud"],
+		"food": 3,
+		"turnsToBuild": 7,
+		"uniques": ["[-2 Production]",
+					"Can also be built on tiles adjacent to fresh water",
+					"[+1 Culture] for each adjacent [unimproved]",
+					"Only available <with [0] to [1] neighboring [Public Field] tiles>",
+					"Only available <after adopting [Gardeners]>",
+					"Pillaging this improvement yields approximately [+70 Gold]"],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Scrapper",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"uniques": ["[-2 Happiness]",
+					"[+1 Science] for each adjacent [resource]",
+					"[+1 Production] for each adjacent [All Road]",
+					"Only available <with [0] to [1] neighboring [Scrapper] tiles>",
+					"Only available <after adopting [Builders]>",
+					"Pillaging this improvement yields approximately [+70 Gold]"],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Forge",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 3,
+		"turnsToBuild": 7,
+		"uniques": ["[-2 Culture]",
+					"Gives a defensive bonus of [50]%",
+					"[+1 Gold] for each adjacent [Rough terrain]",
+					"Improves [Strategic] resource in this tile",
+					"Only available <with [0] to [1] neighboring [Forge] tiles>",
+					"Only available <after adopting [Forge]>",
+					"Pillaging this improvement yields approximately [+70 Gold]"],
+		"shortcutKey": "R"
 	},
 
 
