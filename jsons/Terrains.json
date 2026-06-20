@@ -340,4 +340,48 @@
 		"unbuildable": true,
 		"weight": 10
 	},
+	{ 
+		"name": "Mint Plant",
+		"type": "NaturalWonder",
+		"happiness": 10,
+		"overrideStats": true,
+		"occursOn": ["Sand"],
+		"turnsInto": "Sand",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Branches] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population"],
+		"weight": 1
+	},
+	{
+		"name": "Wilted Rose",
+		"type": "NaturalWonder",
+		"culture": 5,
+		"overrideStats": true,
+		"occursOn": ["Sand"],
+		"turnsInto": "Sand",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Branches] tiles",
+			"Must be adjacent to [1] to [6] [Stick] tiles",
+			"Grants [+500 Gold] to the first civilization to discover it"],
+		"weight": 2
+	},
+	{
+		"name": "Apple Core",
+		"type": "NaturalWonder",
+		"food": 2,
+		"faith": 4,
+		"happiness": 2,
+		"occursOn": ["Sand","Soil"],
+		"uniques": ["Must be adjacent to [0] [Mud] tiles",
+			"Must be adjacent to [0] [Concrete] tiles",
+			"Must be adjacent to [0] [Leaf] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Puddle",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 ]
