@@ -106,6 +106,14 @@
 		"requiredTech": "Climbing"
 	},
 	{
+		"name": "Nectar Storage",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Researchers"
+	},
+	{
 		"name": "Court of Alates",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
@@ -273,6 +281,15 @@
 		"requiredTech": "Walls",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Resin Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Nectar Storage",
+		"requiredTech": "Supply Chains"
+	},
 
 	//ERA 5
 	{
@@ -306,6 +323,15 @@
 		"requiredBuilding": "Park",
 		"maintenance": 2,
 		"requiredTech": "Domestication"
+	},
+	{
+		"name": "Sugar Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 33},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Resin Bank",
+		"requiredTech": "Currency"
 	},
 	
 
