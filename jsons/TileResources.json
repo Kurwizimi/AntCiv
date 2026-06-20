@@ -1,4 +1,5 @@
 [
+	//Bonus
 	{
 		"name": "Clay",
 		"resourceType": "Bonus",
@@ -43,7 +44,7 @@
 					"Generated on every [20] tiles <in [Concrete] tiles>",]
 	},
 	{
-		"name": "Nectar",
+		"name": "Pollen",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grass","Mud"],
 		"food": 1,
@@ -100,7 +101,7 @@
 		"terrainsCanBeFoundOn": ["Rock"],
 		"food": 1,
 		"improvement": "Station",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"gold": 1},
 		"uniques": ["Generated on every [13] tiles <in [Rock] tiles> <in tiles without [Grass]> <in tiles without [Stick]>",
 					"Generated on every [10] tiles <in [Rock] tiles> <in tiles without [Grass]> <in tiles without [Stick]> <in tiles without [Fresh Water]> <in [Rock] Regions>"]
 	},
@@ -117,6 +118,32 @@
 					"Generated on every [25] tiles <in [{Soil} {Grass}] tiles> <in tiles without [Rock]>",
 					"Generated on every [16] tiles <in [{Featureless} {Mud}] tiles> <in [Rock] Regions>",
 					"Generated on every [28] tiles <in [Grass] tiles> <in [Rock] Regions>"]
+	},
+
+	//Strategic
+	{
+		"name": "Chitin",
+		"resourceType": "Strategic",
+		"revealedBy": "Researchers",
+		"terrainsCanBeFoundOn": ["Soil","Sand","Concrete","Mud","Brick","Rock","Leaf"],
+		"production": 1,
+		"improvement": "Scavenge Plot",
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [45] <in [{Featureless} {Mud}] tiles>",
+					"Generated with weight [25] <in [{Featureless} {Brick}] tiles>",
+					"Generated with weight [35] <in [{Featureless} {Concrete}] tiles>",
+					"Generated with weight [26] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Leaf] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [{Stick} {Rock}] tiles>",
+					"Minor deposits generated with weight [20] <in [Grass] tiles>",
+					"Minor deposits generated with weight [20] <in [Rock] tiles> <in tiles without [Stick]> <in tiles without [Grass]>",
+					"Minor deposits generated with weight [30] <in [{Featureless} {Soil}] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [20] <in [{Featureless} {Sand}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Concrete}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Mud}] tiles>",
+					"Minor deposits generated with weight [10] <in [{Featureless} {Brick}] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 
 
@@ -197,5 +224,16 @@
 					"Generated with weight [5] <in [Hybrid] Regions>",
 					"Generated near City States with weight [15]",
 					"Doesn't generate naturally <in [Rock] tiles>"]
+	},
+	{
+		"name": "Honeydew",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Sand","Soil"],
+		"gold": 1,
+		"improvement": "Station",
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated with weight [29] <in [Sand] Regions>",
+					"Generated with weight [15] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]"]
 	},
 ]
