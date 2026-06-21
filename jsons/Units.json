@@ -446,6 +446,92 @@
 		"movement": 2
 	},
 
+	//Great Person
+	{
+		"name": "Great Chancellor",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Council House] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Chancellor] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Researcher",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Star Chart] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Researcher] group",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Diplomat",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Trading Dome] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Diplomat] group",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Miner",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Borehole] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Miner] group",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Vizier",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Petty Throne] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "Is part of Great Person group [Prophet]",
+            "[This Unit] gets a name from the [Vizier] group",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Commander",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Commander] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Climber",
+		"unitType": "Civilian Water",
+		"uniques": [
+            // TODO: "[Every adjacent [{Friendly} {Water}] unit] heals [100] HP <by consuming this unit>",
+            "May Paradrop to [{your} {Coastal} {City center}] tiles up to [25] tiles away <in [City center] tiles>", // Change Port
+            "[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
+			"Can be earned through combat <for [Water] units>",
+            "Is part of Great Person group [Admiral]",
+            "[This Unit] gets a name from the [Climber] group",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+
 //test
 	{
 		"name": "Human",
