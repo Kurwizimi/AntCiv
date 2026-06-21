@@ -254,7 +254,7 @@
 					"[+1 Gold] for each adjacent [Rough terrain]",
 					"Improves [Strategic] resource in this tile",
 					"Only available <with [0] to [1] neighboring [Forge] tiles>",
-					"Only available <after adopting [Forge]>",
+					"Only available <after adopting [Conquerers]>",
 					"Pillaging this improvement yields approximately [+70 Gold]"],
 		"shortcutKey": "R"
 	},
