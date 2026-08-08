@@ -70,7 +70,7 @@
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Stockpiles",
-		//"requiredResource": "Horses",
+		//"requiredResource": "Hempitarians",
 		"upgradesTo": "Slaver",
 		"obsoleteTech": "Mercenaries",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
@@ -236,7 +236,7 @@
 		"requiredTech": "Mercenaries",
 		"obsoleteTech": "Husbandry",
 		"upgradesTo": "Hunter",
-		//"requiredResource": "Horses",
+		//"requiredResource": "Hempitarians",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -330,7 +330,7 @@
 		"cost": 225,
 		"requiredTech": "Husbandry",
 		"obsoleteTech": "Frontier Control",
-		"requiredResource": "Horses",
+		//"requiredResource": "Hempitarians",
 		"upgradesTo": "Hempitarian Chariot",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
@@ -427,7 +427,7 @@
 		"cost": 225,
 		"requiredTech": "Frontier Control",
 		"obsoleteTech": "Farmers",
-		"requiredResource": "Horses",
+		//"requiredResource": "Hempitarians",
 		"upgradesTo": "Hempant",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
@@ -512,7 +512,7 @@
 		"cost": 225,
 		"requiredTech": "Farmers",
 		//"obsoleteTech": "",
-		"requiredResource": "Horses",
+		//"requiredResource": "Hempitarians",
 		//"upgradesTo": "",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
