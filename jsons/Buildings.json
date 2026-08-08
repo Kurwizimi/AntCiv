@@ -372,7 +372,7 @@
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "Royal Mound",
 		"maintenance": 3,
-		"requiredTech": "Govenors",
+		"requiredTech": "Governors",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
