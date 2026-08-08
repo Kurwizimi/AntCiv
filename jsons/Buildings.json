@@ -333,6 +333,98 @@
 		"requiredBuilding": "Resin Bank",
 		"requiredTech": "Currency"
 	},
+	//Era 6
+	{
+		"name": "Weaver",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		//"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Tool Storage",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		//"requiredResource": "",
+		"requiredTech": "Builders"
+	},
+	{
+		"name": "Hill Fort",
+		"cityStrength": 17,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Palisade",
+		"requiredTech": "Generals",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+
+	//Era 7
+	{
+		"name": "Library",
+		"faith": 4,
+		"requiredBuilding": "Secret Altar",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Teachers",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Grand Mural",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Royal Mound",
+		"maintenance": 3,
+		"requiredTech": "Govenors",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Dam",
+		//"requiredResource": "",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
+		"requiredTech": "Architects"
+	},
+	{
+		"name": "Gamegrounds",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		//"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Observatory",
+		"maintenance": 3,
+		"requiredTech": "Teachers"
+	},
+	//Era 8
+	{
+		"name": "Public Bath",
+		"happiness": 3,
+		"requiredBuilding": "Zoo",
+		"maintenance": 2,
+		"requiredTech": "Irrigation"
+	},
+	{
+		"name": "Feast Hall",
+		"requiredBuilding": "Granary",
+		"food": 8,
+		"maintenance": 3,
+		"requiredTech": "Agriculture",
+		//"uniques": []
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Aphid Abattoir",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Professional Army"
+	},
+	{
+		"name": "Caravanserai",
+		"gold": 2,
+		"percentStatBonus": {"gold": 50},
+		//"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Sugar Exchange",
+		"requiredTech": "Communities"
+	},
 	
 
 
