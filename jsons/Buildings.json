@@ -336,6 +336,20 @@
 	//Era 6
 	{
 		"name": "Weaver",
+		"maintenance": 2,
+		"production": 1,
+    	"cost": 280,
+		"hurryCostModifier": 25,
+    	"requiredNearbyImprovedResources": ["Fresh Detritus","Milkweed","Silk"],
+		"percentStatBonus": {"production": 10},
+    	"uniques": ["[+2 Gold] from [Milkweed] tiles [in this city]",
+			"[+2 Gold] from [Silk] tiles [in this city]",
+			"[+2 Gold] from [Fresh Detritus] tiles [in this city]"],
+		"requiredTech": "Silk Road"
+	},
+	//Era 7
+	{
+		"name": "Mill",
 		"cost": 360,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
@@ -356,7 +370,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 
-	//Era 7
+	//Era 8
 	{
 		"name": "Library",
 		"faith": 4,
@@ -392,7 +406,6 @@
 		"maintenance": 3,
 		"requiredTech": "Teachers"
 	},
-	//Era 8
 	{
 		"name": "Public Bath",
 		"happiness": 3,
