@@ -342,7 +342,7 @@
 		"strength": 14,
 		"cost": 40,
 		"requiredTech": "Mining",
-		"obsoleteTech": "Land Claims",
+		"obsoleteTech": "Philosophy",
 		"upgradesTo": "Royal Guard",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>",
 					"[+50]% Strength <in [Friendly] tiles>",
