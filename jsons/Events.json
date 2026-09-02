@@ -6,11 +6,5 @@
           {"text": "OK",
 			     "uniques": ["[-50]% Strength <for [All] units> <for [10] turns>"] } ]
 	},
-	{
-		    "name": "Dry Season",
-		    "text": "Dry Season has begun!",
-		    "choices": [
-          {"text": "OK",
-			     "uniques": ["[-50]% Strength <for [All] units> <for [10] turns>"] } ]
-	},
+	
 ]
