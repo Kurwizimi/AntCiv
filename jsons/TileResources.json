@@ -124,10 +124,10 @@
 	{
 		"name": "Hempitarians",
 		"resourceType": "Strategic",
-		"revealedBy": "Station",
+		"revealedBy": "Early Scavenging",
 		"terrainsCanBeFoundOn": ["Sand","Soil","Rock"], // Rock only if sand or soil
 		"production": 1,
-		"improvement": "Pasture",
+		"improvement": "Station",
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [100] <in [{Featureless} {Soil}] tiles>",
