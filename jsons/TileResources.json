@@ -86,7 +86,7 @@
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Branches}] tiles>"]
 	},
 	{
-		"name": "Hemipterans",
+		"name": "Mealybugs",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Soil"],
 		"food": 1,
@@ -124,7 +124,7 @@
 	{
 		"name": "Hempitarians",
 		"resourceType": "Strategic",
-		"revealedBy": "Early Scavenging",
+		"revealedBy": "Station",
 		"terrainsCanBeFoundOn": ["Sand","Soil","Rock"], // Rock only if sand or soil
 		"production": 1,
 		"improvement": "Pasture",
@@ -170,7 +170,7 @@
 		"revealedBy": "Silk Road",
 		"terrainsCanBeFoundOn": ["Concrete","Branches","Mud","Brick","Leaf","Stick"],
 		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvedBy": ["Scavenge Plot"],
 		"improvementStats": {"production": 3},
 		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
@@ -193,7 +193,7 @@
 		"revealedBy": "Early Weapons",
 		"terrainsCanBeFoundOn": ["Concrete","Mud","Rock","Brick","Stick"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Scavenge Plot",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [15] <in [{Featureless} {Mud}] tiles>",
 					"Generated with weight [15] <in [{Featureless} {Brick}] tiles>",
@@ -209,7 +209,7 @@
 		"revealedBy": "Our Purpose",
 		"terrainsCanBeFoundOn": ["Leaf","Stick","Grass","Mud","Brick"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "Scavenge Plot",
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated with weight [35] <in [Leaf] tiles> <in tiles without [Rock]>",
 					"Generated with weight [70] <in [Stick] tiles> <in tiles without [Rock]>",
