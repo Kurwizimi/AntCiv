@@ -381,4 +381,18 @@
 					"Generated with weight [20] <in [Hybrid] Regions>",
 					"Generated near City States with weight [10]"]
 	},
+	{
+		"name": "Spores",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Stick","Grass","Wet Sand"],
+		"food": 1,
+		"gold": 1,
+		"improvement": "Harvester",
+		"uniques": ["Generated with weight [35] <in [Stick] Regions>",
+					"Generated with weight [5] <in [Grass] Regions>",
+					"Generated with weight [5] <in [Concrete] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [15]",
+					"Doesn't generate naturally <in [Mud] tiles>"]
+	},
 ]
