@@ -41,21 +41,21 @@
 	{
 		"name": "Soldiers Chamber",
 		"production": 1,
-		"cost": 20,
+		"cost": 25,
 		"uniques": ["Comment [Allows the construction of Military units]"],
 		"requiredTech": "Nest Defence"
 	},
 	{
 		"name": "Food Storage",
 		"food": 1,
-		"cost": 20,
+		"cost": 25,
 		"uniques": ["[+1 Food] from [{unimproved} {Bonus resource}] tiles [in this city]"],
 		"requiredTech": "Storage"
 	},
 	{
 		"name": "Resource Storage",
 		"culture": 1,
-		"cost": 20,
+		"cost": 25,
 		"maintenance": 2,
 		"uniques": ["[+1 Gold] from [{unimproved} {Luxury resource}] tiles [in this city]"],
 	},
@@ -63,7 +63,7 @@
 		"name": "Ant Defence",
 		"cityStrength": 50,
 		"cityHealth": 50,
-		"cost": 20,
+		"cost": 75,
 		"requiredTech": "Species Protection"
 	},
 	{
@@ -72,6 +72,7 @@
 		"production": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
+		"cost": 75,
 		"requiredNearbyImprovedResources": ["Clay"],
 		"uniques": ["[+1 Production] from [Clay] tiles [in this city]"],
 		"requiredTech": "Basic Paths"
@@ -82,12 +83,14 @@
 		"food": 2,
 		"production": 1,
 		"hurryCostModifier": 25,
+		"cost": 75,
 		"uniques": ["Must be on [Hill]"],
 		"requiredTech": "Tunnels"
 	},
 	{
 		"name": "Hidden Council",
 		"hurryCostModifier": 25,
+		"cost": 75,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Tunnels"
@@ -100,6 +103,7 @@
 		"name": "Lookout",
 		"cost": 75,
 		"hurryCostModifier": 25,
+		"cost": 75,
 		"maintenance": 1,
 		"uniques": ["Must be next to [Branches]", "[+1 Food] from [Bush] tiles [in this city]",
 			"[+1 Food] from [Branches] tiles [in this city]" ], //food of fish
@@ -110,6 +114,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
+		"cost": 100,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Researchers"
 	},
@@ -117,6 +122,7 @@
 		"name": "Court of Alates",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
+		"cost": 100,
 		"uniques": ["Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Societal Order"
@@ -126,6 +132,7 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"cost": 100,
 		"requiredTech": "Doors"
 	},
 	{
@@ -135,6 +142,7 @@
 		"requiredBuilding": "Throne",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"cost": 100,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Doors"
 	},
@@ -144,12 +152,14 @@
 		"production": 2,
 		//"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"cost": 120,
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Wooden Tools"
 	},
 	{
 		"name": "Patrol Route",
 		"hurryCostModifier": 25,
+		"cost": 100,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bridges"
@@ -160,6 +170,7 @@
 		"requiredBuilding": "Shrine to the Queen",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"cost": 100,
 		"requiredTech": "Societal Order",
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -167,6 +178,7 @@
 		"name": "Nursery",
 		"happiness": 2,
 		"hurryCostModifier": 10,
+		"cost": 150,
 		"maintenance": 2,
 		"requiredBuilding": "Private Chambers",
 		"requiredTech": "Nurseries"
@@ -174,7 +186,8 @@
 	{
 		"name": "Egg Hatchery",
 		"maintenance": 1,
-		"hurryCostModifier": 0,
+		"hurryCostModifier": 20,
+		"cost": 100,
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Nurseries"
 	},
@@ -185,6 +198,7 @@
 		"culture": 4,
 		//"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
+		"cost": 160,
 		"requiredBuilding": "Royal Daycare",
 		"maintenance": 2,
 		"requiredTech": "Sleeping Quarters",
@@ -194,6 +208,7 @@
 		"name": "Orator Podium",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
+		"cost": 160,
 		"percentStatBonus": {"science": 33},
 		//"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Hidden Council",
@@ -203,6 +218,7 @@
 	{
 		"name": "Training Ground",
 		"hurryCostModifier": 25,
+		"cost": 160,
 		"maintenance": 1,
 		"requiredBuilding": "Patrol Route",
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
@@ -213,6 +229,7 @@
 		"production": 2,
 		//"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"cost": 200,
 		"maintenance": 2,
 		"requiredBuilding": "Toolmaker",
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
@@ -223,6 +240,7 @@
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
+		"cost": 180,
 		"requiredBuilding": "Ant Defence",
 		"requiredTech": "Trenches",
 		"uniques": ["Destroyed when the city is captured"]
@@ -235,12 +253,14 @@
 		"requiredBuilding": "Egg Hatchery",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"cost": 200,
 		"requiredTech": "Fences"
 	},
 	{
 		"name": "Star-Watching Raft",
 		"maintenance": 0,
 		"hurryCostModifier": 15,
+		"cost": 200,
 		"percentStatBonus": {"science": 50},
 		"requiredBuilding": "Hidden Council",
 		"uniques": ["Must be next to [Puddle]"],
@@ -253,6 +273,7 @@
 		"requiredBuilding": "Royal Chamber",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"cost": 200,
 		"requiredTech": "Engineer Corps.",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -261,6 +282,7 @@
 		"happiness": 3,
 		"requiredBuilding": "Nursery",
 		"maintenance": 2,
+		"cost": 200,
 		"requiredTech": "Landmarking"
 	},
 	{
@@ -269,6 +291,7 @@
 		"requiredBuilding": "Priest Complex",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"cost": 200,
 		"requiredTech": "Walls",
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -277,6 +300,7 @@
 		"cityStrength": 12,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
+		"cost": 275,
 		"requiredBuilding": "Ditch",
 		"requiredTech": "Walls",
 		"uniques": ["Destroyed when the city is captured"]
@@ -286,6 +310,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
+		"cost": 200,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Nectar Storage",
 		"requiredTech": "Supply Chains"
@@ -299,12 +324,14 @@
 		"requiredBuilding": "Orator Podium",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"cost": 300,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Star Charts"
 	},
 	{
 		"name": "Aphid Abattoir",
 		"hurryCostModifier": 0,
+		"cost": 300,
 		"maintenance": 1,
 		"requiredBuilding": "Training Ground",
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
@@ -314,6 +341,7 @@
 		"name": "Granary",
 		"requiredBuilding": "Food Bank",
 		"maintenance": 3,
+		"cost": 300,
 		"requiredTech": "Harvest",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
@@ -322,6 +350,7 @@
 		"happiness": 3,
 		"requiredBuilding": "Park",
 		"maintenance": 2,
+		"cost": 300,
 		"requiredTech": "Domestication"
 	},
 	{
@@ -330,6 +359,7 @@
 		"percentStatBonus": {"gold": 33},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"cost": 360,
 		"requiredBuilding": "Resin Bank",
 		"requiredTech": "Currency"
 	},
@@ -338,7 +368,7 @@
 		"name": "Weaver",
 		"maintenance": 2,
 		"production": 1,
-    	"cost": 280,
+    	"cost": 450,
 		"hurryCostModifier": 25,
     	"requiredNearbyImprovedResources": ["Fresh Detritus","Milkweed","Silk"],
 		"percentStatBonus": {"production": 10},
@@ -350,7 +380,7 @@
 	//Era 7
 	{
 		"name": "Mill",
-		"cost": 360,
+		"cost": 450,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		//"specialistSlots": {"Engineer": 2},
@@ -365,6 +395,7 @@
 		"cityStrength": 17,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
+		"cost": 500,
 		"requiredBuilding": "Palisade",
 		"requiredTech": "Generals",
 		"uniques": ["Destroyed when the city is captured"]
@@ -377,6 +408,7 @@
 		"requiredBuilding": "Secret Altar",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"cost": 500,
 		"requiredTech": "Teachers",
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
@@ -386,6 +418,7 @@
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "Royal Mound",
 		"maintenance": 3,
+		"cost": 500,
 		"requiredTech": "Governors",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -393,6 +426,7 @@
 		"name": "Dam",
 		//"requiredResource": "",
 		"hurryCostModifier": 0,
+		"cost": 500,
 		"maintenance": 3,
 		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
 		"requiredTech": "Architects"
@@ -404,6 +438,7 @@
 		//"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Observatory",
 		"maintenance": 3,
+		"cost": 500,
 		"requiredTech": "Teachers"
 	},
 	{
@@ -411,6 +446,7 @@
 		"happiness": 3,
 		"requiredBuilding": "Zoo",
 		"maintenance": 2,
+		"cost": 500,
 		"requiredTech": "Irrigation"
 	},
 	{
@@ -418,12 +454,14 @@
 		"requiredBuilding": "Granary",
 		"food": 8,
 		"maintenance": 3,
+		"cost": 580,
 		"requiredTech": "Agriculture",
 		//"uniques": []
 	},
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 0,
+		"cost": 500,
 		"maintenance": 1,
 		"requiredBuilding": "Aphid Abattoir",
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
@@ -435,6 +473,7 @@
 		"percentStatBonus": {"gold": 50},
 		//"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"cost": 540,
 		"requiredBuilding": "Sugar Exchange",
 		"requiredTech": "Communities"
 	},
