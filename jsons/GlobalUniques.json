@@ -1,10 +1,11 @@
 {
     "name": "Global uniques",
     "uniques": [
-	"[-50]% Strength <for [10] turns>"
-	"Triggers the following global alert: [Rain season!]"
-	"[-50]% Strength <for [10] turns> <every [40] turns>"
-	"Triggers the following global alert: [Rain season!] <every [40] turns>"
+	"[-50]% Strength <for [10] turns>",
+	"Triggers the following global alert: [Rain season!]",
+	"[-50]% Strength <for [10] turns> <every [40] turns>",
+	"Triggers the following global alert: [Rain season!] <every [40] turns>",
+	"Triggers a [Wet Season] event <for [Major] Civilizations> <upon turn end> <every [40] turns> <after turn number [0]> ",
 /*
         "[-75]% growth [in all cities] <when between [-10] and [-1] Happiness>",
         "Nullifies Growth [in all cities] <when below [-10] Happiness>",
