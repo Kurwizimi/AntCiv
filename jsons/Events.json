@@ -1,0 +1,9 @@
+[
+  {
+		    "name": "Wet Season",
+		    "text": "Wet Season has begun!",
+		    "choices": [
+          {"text": "OK",
+			     "uniques": [] } ]
+	},
+]
