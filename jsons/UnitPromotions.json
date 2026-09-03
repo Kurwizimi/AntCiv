@@ -33,6 +33,7 @@
         "name": "Watchtower",
         "uniques": ["[+1] Sight"]
     },
+	
 	//Beliefs
 	{
         "name": "Eternal March",
@@ -42,5 +43,11 @@
         "name": "Fungus Worship",
         "uniques": ["[+5] HP when healing"]
     },
+
+	//Natural Wonder
+	{
+		"name": "Rejuvenation",
+		"uniques": ["All healing effects doubled"]
+	},
 
 ]
