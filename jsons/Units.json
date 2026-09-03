@@ -562,7 +562,7 @@
 		"name": "Sharpspear",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 20,
+		"strength": 25,
 		"cost": 300,
 		"requiredTech": "Professional Army",
 		//"obsoleteTech": "",
