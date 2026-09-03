@@ -166,7 +166,7 @@
 		"rangedStrength": 15,
 		"requiredTech": "Expeditionary Forces",
 		"obsoleteTech": "Organised Trade",
-		//"upgradesTo": "Bombadier",
+		"upgradesTo": "Bombadier",
 		"uniques" : ["Only available <in cities with a [Soldiers Chamber]> <hidden from users>"],
 		"cost": 75,
 	},
