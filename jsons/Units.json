@@ -444,6 +444,48 @@
 		"uniques" : ["[+1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Shortwing",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 6,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Sap",
+		//"upgradesTo": "",
+		//"obsoleteTech": "",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Pebble-Dropper",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Flight",
+		"requiredResource": "Sap",
+		//"upgradesTo": "",
+		//"obsoleteTech": "",
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Glider",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 20,
+		"cost": 375,
+		"requiredTech": "Flight",
+		"uniques": ["May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Rock}] tiles>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		//"upgradesTo": "",
+		//"obsoleteTech": "",
+	},
 
 	//Era Seven
 	{
