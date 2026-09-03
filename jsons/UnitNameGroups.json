@@ -1,0 +1,30 @@
+[
+   {
+        "name": "Great Chancellor",
+        "unitNames": [] 
+    }
+   {
+        "name": "Great Researcher",
+        "unitNames": [] 
+    }
+   {
+        "name": "Great Diplomat",
+        "unitNames": [] 
+    }
+   {
+        "name": "Great Miner",
+        "unitNames": [] 
+    }
+   {
+        "name": "Great Vizier",
+        "unitNames": [] 
+    }
+   {
+        "name": "Great Commander",
+        "unitNames": ["Peanut"] 
+    }
+   {
+        "name": "Great Climber",
+        "unitNames": [] 
+    }
+]
